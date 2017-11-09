@@ -10,5 +10,14 @@ h1 {
 }
 
 #content {
-    
+    margin: 25px;
+}
+
+a{
+    align: center;
+    color: crimson
+}
+
+.center{
+    text-align: center;
 }
