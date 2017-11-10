@@ -9,9 +9,9 @@
   }
 }
 
-html {  
-  /* This section calls the slideInFromLeft animation we defined above */
-  animation: 1s ease-out 0s 1 blur;
-  
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   html {  
+        animation: 1s ease-out 0s 1 blur;
+    }
 }
+
