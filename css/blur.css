@@ -1,0 +1,15 @@
+@keyframes blur {
+  0% {
+    filter:blur(3px);
+  }
+  100% {
+    filter:blur(0);
+  }
+}
+
+html {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 blur;
+  
+
+}

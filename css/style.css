@@ -1,5 +1,5 @@
 @import url("button.css");
-
+@import url("blur.css");
 
 @font-face {
 	font-family: openSans;
@@ -16,6 +16,7 @@ html {
     margin:0;padding:0;
     background-color: #d8d8d8;
     text-shadow: 1px 1px 17px rgba(0, 0, 0, 0.9);
+    
 }
 
 body {
