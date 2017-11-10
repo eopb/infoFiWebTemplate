@@ -10,8 +10,11 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-   html {  
-        animation: 1s ease-out 0s 1 blur;
-    }
+        @supports not (-ms-ime-align:auto) {
+            html {  
+                animation: 1s ease-out 0s 1 blur;
+            }
+        }
+    
 }
 
