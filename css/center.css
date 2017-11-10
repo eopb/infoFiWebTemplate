@@ -1,7 +1,3 @@
-
-html {
-    margin:0;padding:0;
-}
 @media only screen and (min-width: 800px) {
     body {
         
@@ -15,25 +11,4 @@ html {
     
     }
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    
 
-    
-}
-h1 {
-    text-align: center;
-}
-
-#content {
-    margin: 25px;
-}
-
-a{
-    align: center;
-    color: crimson
-}
-
-.center{
-    text-align: center;
-}
