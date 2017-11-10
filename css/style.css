@@ -12,6 +12,7 @@
 }
 
 
+
 html {
     margin:0;padding:0;
     background-color: #d8d8d8;
@@ -29,6 +30,8 @@ body {
 	-webkit-box-shadow: 4px 3px 18px 0px rgba(0,0,0,0.45);
 	-moz-box-shadow: 4px 3px 18px 0px rgba(0,0,0,0.45);
 	box-shadow: 4px 3px 18px 0px rgba(0,0,0,0.45);
+    
+
 }
 
 h1 {
@@ -43,4 +46,8 @@ a{
 
 .center{
     text-align: center;
+
 }
+
+
+
