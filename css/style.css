@@ -1,5 +1,5 @@
 @import url("button.css");
-@import url("blur.css");
+/* @import url("blur.css"); */
 
 @font-face {
 	font-family: openSans;
@@ -15,7 +15,7 @@
 
 html {
     margin:0;padding:0;
-    
+    background-image: url("tower3.jpg");
     text-shadow: 1px 1px 17px rgba(0, 0, 0, 0.9);
 }
 
@@ -35,6 +35,19 @@ h1 {
 .center{
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

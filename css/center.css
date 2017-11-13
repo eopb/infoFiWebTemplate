@@ -1,5 +1,10 @@
-@media only screen and (min-width: 800px) {
+@media
+	only screen and
+	(min-width: 800px) and (min-height: 440px) 
+	{
     body {
+		
+		
         position: fixed;
         top: 50%;
         left: 50%;
@@ -17,11 +22,18 @@
 		-moz-box-shadow: 4px 3px 18px 0px rgba(0,0,0,0.45);
 		box-shadow: 4px 3px 18px 0px rgba(0,0,0,0.45);
     }
+    html{
+		background-image: url("tower3.jpg");
+        background-repeat: no-repeat;
+		background-position: right top;
+        
+    }
     
 }
 @media only screen and (min-width: 800px) {
     html{
+		background-image: url("tower3.jpg");
         background-color: gainsboro;
-        background-image: url("tower3.jpg");
+        
     }
 }
