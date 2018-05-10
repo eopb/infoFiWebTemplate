@@ -10,7 +10,8 @@ h1 {
 }
 .button {
     text-align: center;
-    
+    display: inline-block;
+    float: none;
     background-color: #3b3b3b;
     border-radius: 2px;
     border: none;
