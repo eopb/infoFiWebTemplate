@@ -9,11 +9,17 @@
     background-color: #3b3b3b;
     border-radius: 20px;
     color: white;
-    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    padding: 15px 70px 15px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 50px;
     margin: 2px 2px;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
+    
 }
