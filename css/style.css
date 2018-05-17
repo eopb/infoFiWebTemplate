@@ -11,7 +11,7 @@ h1 {
 .button {
     text-align: center;
     width: 20%;
-    float: left;
+    float: none;
     background-color: #3b3b3b;
     border-radius: 20px;
     color: white;
@@ -23,4 +23,8 @@ h1 {
     margin: 2px 2px;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
     box-sizing: inherit;
+    
+}
+.bottomImage{
+    width: 250px;
 }
