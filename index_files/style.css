@@ -1,0 +1,33 @@
+body {
+    margin: 50px 25px 0 25px;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+    text-align: center;
+    font-size: 60px;
+}
+.button {
+    display: flex; 
+    justify-content: center;
+    box-sizing: 100%;
+    text-align: center;
+    width: 20%;
+    float: inherit;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+    
+}
+.bottomImage{
+    width: 250px;
+}
