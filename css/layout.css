@@ -1,0 +1,18 @@
+.layout {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: 90vh auto;
+    height: 100%;
+}
+
+.main {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bottom {
+    grid-column: 1;
+    grid-row: 2;
+}
+
