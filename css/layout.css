@@ -4,22 +4,22 @@
 
     grid-gap: 0px;
     /* grid-auto-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh; */
-    grid-auto-rows: auto auto auto auto auto auto auto auto auto 0;
+    grid-auto-rows: auto auto auto auto auto;
     height: 100%;
 }
 
 .main {
     grid-column: 1 / 4;
-    grid-row: 1 / 8;
+    grid-row: 1 / 4;
 }
 
 .bottom {
 
 
-    grid-column: 2 / 3;
-    grid-row: 8 / 9;   
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;   
     position: relative;
-    background: url(""");
+    background: url("http://efunb.com/images/g6128.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
