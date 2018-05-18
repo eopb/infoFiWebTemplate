@@ -1,20 +1,29 @@
 .layout {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 33% auto 33%;
 
     grid-gap: 0px;
-    grid-auto-rows: minmax(50vh, 50vh) minmax(40vh, 40vh) minmax(10vh, 10vh);
+    /* grid-auto-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh; */
+    grid-auto-rows: auto auto auto auto auto auto auto auto auto 0;
     height: 100%;
 }
 
 .main {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1 / 4;
+    grid-row: 1 / 8;
 }
 
 .bottom {
-    grid-column: 1;
-    grid-row: 3;
+
+
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;   
+    position: relative;
+
+
+
+
     
 }
+
 
