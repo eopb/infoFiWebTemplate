@@ -15,7 +15,10 @@
    version="1.1"
    id="SVGRoot"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="corner.svg">
+   sodipodi:docname="corner.svg"
+   inkscape:export-filename="C:\Users\ethan\Documents\GitHub\infoFiWebTemplate\private\images\svg\bitmap.png"
+   inkscape:export-xdpi="9868.4209"
+   inkscape:export-ydpi="9868.4209">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="39.38"
-     inkscape:cx="8"
-     inkscape:cy="8"
+     inkscape:cx="6.8318944"
+     inkscape:cy="5.4098527"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -70,9 +73,9 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
-     style="opacity:0.98">
+     style="display:inline;opacity:0.98000004">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter1987)"
+       style="fill:none;stroke:#000000;stroke-width:0.62362205;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.38674033;filter:url(#filter1987);stroke-miterlimit:4;stroke-dasharray:none"
        d="M 16,0 0,16"
        id="path1833"
        inkscape:connector-curvature="0" />
