@@ -37,9 +37,9 @@
     grid-row: 4 / 5;   
     position: relative;
     background: url("http://efunb.com/images/bitmap.png");
-    background-position: center bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 
 
