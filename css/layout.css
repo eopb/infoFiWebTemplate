@@ -30,3 +30,18 @@
 }
 
 
+.bottomLeft {
+
+
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;   
+    position: relative;
+    background: url("http://efunb.com/images/bitmap.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+    
+}
