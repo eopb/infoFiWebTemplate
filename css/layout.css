@@ -14,25 +14,17 @@
 }
 
 .bottom {
-
-
     grid-column: 1 / 4;
     grid-row: 4 / 5;   
     position: relative;
     background: url("../private/images/svg/g6128.png");
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: contain;
-
-
-
-    
+    background-size: contain;    
 }
 
 
 .bottomLeft {
-
-
     grid-column: 3 / 4;
     grid-row: 4 / 5;   
     position: relative;
@@ -40,8 +32,4 @@
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
-    
 }
