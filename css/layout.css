@@ -1,23 +1,18 @@
 .layout {
     display: grid;
-    grid-template-columns: 33% auto 33%;
-
+    grid-auto-flow: row;
     grid-gap: 0px;
     /* grid-auto-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh; */
-    grid-auto-rows: auto auto auto auto auto;
     height: 100%;
 }
 
 .main {
-    grid-column: 1 / 4;
-    grid-row: 1 / 4;
+
 }
 
 .bottom {
-    grid-column: 1 / 4;
-    grid-row: 4 / 5;   
+      
     position: relative;
-    background: url("../private/images/svg/g6128.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;    
@@ -25,8 +20,7 @@
 
 
 .bottomLeft {
-    grid-column: 3 / 4;
-    grid-row: 4 / 5;   
+  
     position: relative;
     background: url("../private/images/svg/bitmap.png");
     background-position: left bottom;
