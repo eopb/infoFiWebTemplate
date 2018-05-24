@@ -1,8 +1,13 @@
+html,
+body {
+    height: 100%;
+}
+
 .layout {
     display: grid;
     grid-auto-flow: row;
+    grid-template-rows: 90% 10%;
     grid-gap: 0px;
-    /* grid-auto-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh; */
     height: 100%;
 }
 
@@ -14,12 +19,12 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 33% 33% 33%;
-    position: relative;
+    
 }
 
 
 .bottomLeft {
-    position: relative;
+    
 }
 
 div.bottom img.middle {
@@ -27,7 +32,7 @@ div.bottom img.middle {
     margin: auto;
 }
 
-div.bottom img.right {
+div.bottom div.right {
     grid-column: 3;
 }
 
