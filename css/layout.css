@@ -6,7 +6,7 @@ body {
 .layout {
     display: grid;
     grid-auto-flow: row;
-   
+    grid-template-rows: auto 90px;
     grid-gap: 0px;
     height: 100%;
 }
@@ -17,6 +17,7 @@ body {
 
 .bottom {
     display: grid;
+    position: relative;
     grid-auto-flow: column;
     grid-template-columns: 33% 33% 33%;
     
@@ -36,9 +37,13 @@ div.bottom img.middle {
 
 div.bottom div.right {
     grid-column: 3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 div.bottom img {
-    width: 100%;
-    height: auto;
+    
+    
+    height: 80px;
 }
