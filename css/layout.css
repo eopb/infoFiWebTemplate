@@ -11,19 +11,27 @@
 }
 
 .bottom {
-      
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 33% 33% 33%;
     position: relative;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;    
 }
 
 
 .bottomLeft {
-  
     position: relative;
-    background: url("../private/images/svg/bitmap.png");
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+div.bottom img.middle {
+    grid-column: 2;
+    margin: auto;
+}
+
+div.bottom img.right {
+    grid-column: 3;
+}
+
+div.bottom img {
+    width: 20%;
+    height: auto;
 }
