@@ -1,6 +1,6 @@
 body {
     margin: 0;
-
+    padding: 0;
     min-height: 100vh;
     background-color: #4fbdff;
     font-family: 'Roboto', sans-serif;
@@ -8,8 +8,9 @@ body {
 h1 {
     color: #fff;
     text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+    margin: 20px;
     text-align: center;
-    font-size: 60px;
+    font-size: 63px;
 }
 
 .bottomImage{
