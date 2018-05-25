@@ -1,6 +1,8 @@
 .layout {
     grid-auto-flow: column;
 
+    grid-template-columns: 50% 50%;
+
 }
 
 div.bottom img.middle {
