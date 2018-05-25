@@ -1,3 +1,6 @@
+@import url('layout.css');
+@import url('button.css');
+
 body {
     margin: 0;
     padding: 0;
