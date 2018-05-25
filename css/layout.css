@@ -1,3 +1,6 @@
+@import url('layoutDesktop.css') (orientation:landscape);
+@import url('layoutMobile.css') (orientation:portrait);
+
 html,
 body {
     height: 100%;
@@ -34,7 +37,7 @@ body {
     } 
 }
 div.bottom img.middle {
-    @media (min-width: 50px) { display: none; }
+
     filter: drop-shadow( -2px -2px 1px rgba(0, 0, 0, 0.4) );
     grid-column: 2;
     margin: auto;
