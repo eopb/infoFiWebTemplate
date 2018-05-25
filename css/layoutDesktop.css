@@ -1,3 +1,8 @@
+.layout {
+    grid-auto-flow: column;
+
+}
+
 div.bottom img.middle {
   display: none;
 }

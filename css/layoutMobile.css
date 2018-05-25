@@ -1,3 +1,9 @@
+.layout {
+    grid-auto-flow: row;
+    grid-template-rows: auto 200px;
+}
+
+
 div.bottom img.middle {
 
     filter: drop-shadow( -2px -2px 1px rgba(0, 0, 0, 0.4) );
