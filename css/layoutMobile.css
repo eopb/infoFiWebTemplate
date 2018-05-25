@@ -1,6 +1,6 @@
 .layout {
     grid-auto-flow: row;
-    grid-template-rows: auto 200px;
+    grid-template-rows: min-content auto 200px;
 }
 
 
