@@ -28,8 +28,13 @@ body {
     
 }
 
-
+@media (min-width: 1000px) { 
+    div.bottom img.middle { 
+        display: none; 
+    } 
+}
 div.bottom img.middle {
+    @media (min-width: 50px) { display: none; }
     filter: drop-shadow( -2px -2px 1px rgba(0, 0, 0, 0.4) );
     grid-column: 2;
     margin: auto;
