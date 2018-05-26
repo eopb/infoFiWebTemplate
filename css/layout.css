@@ -17,13 +17,7 @@ body {
 
 }
 
-.bottom {
-    display: grid;
-    position: relative;
-    grid-auto-flow: column;
-    grid-template-columns: 33% 33% 33%;
-    
-}
+
 
 
 .bottomLeft {

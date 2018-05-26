@@ -3,6 +3,14 @@
     grid-template-rows: min-content auto 200px;
 }
 
+.bottom {
+    display: grid;
+    position: relative;
+    grid-auto-flow: column;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
 div.bottom img.middle {
     filter: drop-shadow( -2px -2px 1px rgba(0, 0, 0, 0.4) );
     grid-column: 2;
