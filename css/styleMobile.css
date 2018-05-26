@@ -10,3 +10,7 @@ h1 {
 div.bottom img.middle {
     filter: drop-shadow( -2px -2px 1px rgba(0, 0, 0, 0.4) );
 }
+
+div.bottom div.right {
+    filter: drop-shadow( -0px -0px 15px rgba(0, 0, 0, 0.6) );
+}

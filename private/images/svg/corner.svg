@@ -28,35 +28,21 @@
      inkscape:pageshadow="2"
      inkscape:zoom="39.38"
      inkscape:cx="6.8318944"
-     inkscape:cy="5.4098527"
+     inkscape:cy="7.4413408"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="818"
      inkscape:window-maximized="1"
      inkscape:grid-bbox="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="false"
      inkscape:snap-page="true" />
   <defs
-     id="defs815">
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1987"
-       x="-0.108"
-       width="1.216"
-       y="-0.108"
-       height="1.216">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.72"
-         id="feGaussianBlur1989" />
-    </filter>
-  </defs>
+     id="defs815" />
   <metadata
      id="metadata818">
     <rdf:RDF>
@@ -65,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,13 +59,7 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
-     style="display:inline;opacity:0.98000004">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.62362205;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.38674033;filter:url(#filter1987);stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 16,0 0,16"
-       id="path1833"
-       inkscape:connector-curvature="0" />
-  </g>
+     style="display:inline;opacity:0.98000004" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
