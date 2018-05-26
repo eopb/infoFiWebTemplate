@@ -15,12 +15,7 @@ body {
 
 
 
-div.bottom div.right {
-    grid-column: 3;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+
 
 div.bottom img {
     

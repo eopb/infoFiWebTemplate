@@ -3,8 +3,6 @@
   grid-template-columns: 50% 50%;
 }
 
-
-
 div.bottom img.middle {
   display: none;
 }
@@ -29,4 +27,8 @@ div.buttonArea {
 
 div.buttonArea a {
   grid-row: 2;
+}
+
+div.bottom div.right {
+  display: none;
 }

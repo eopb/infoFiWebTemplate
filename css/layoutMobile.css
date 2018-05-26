@@ -16,3 +16,10 @@ div.bottom img.middle {
     grid-column: 2;
     margin: auto;
 }
+
+div.bottom div.right {
+    grid-column: 3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
