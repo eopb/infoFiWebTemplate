@@ -1,3 +1,5 @@
+@import url('styleDesktop.css') (orientation:landscape);
+@import url('styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 @import url('button.css');
 
