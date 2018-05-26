@@ -1,10 +1,10 @@
 
 .button {
-    display: flex; 
+    display: block; 
     justify-content: center;
     box-sizing: 100%;
     text-align: center;
-    width: 50%;
+    width: 60%;
     float: inherit;
     background-color: #616161;
     border-radius: 20px;
@@ -15,7 +15,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 75px;
-    margin: 2px 2px;
+    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
 }
 
