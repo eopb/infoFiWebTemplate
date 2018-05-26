@@ -7,7 +7,7 @@
     display: grid;
     position: relative;
     grid-auto-flow: column;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% auto 33%;
 }
 
 div.bottom img.middle {
