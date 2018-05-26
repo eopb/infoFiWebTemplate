@@ -26,6 +26,7 @@ div.buttonArea {
   grid-auto-flow: row;
   grid-template-rows: auto min-content auto;
 }
+
 div.buttonArea a {
   grid-row: 2;
 }
