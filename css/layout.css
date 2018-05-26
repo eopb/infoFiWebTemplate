@@ -8,17 +8,10 @@ body {
 
 .layout {
     display: grid;
-
     grid-gap: 0px;
     height: 100%;
 }
 
-
-
-
-
 div.bottom img {
-    
-    
     height: 200px;
 }
