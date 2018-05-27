@@ -16,10 +16,16 @@ div.bottom img.middle {
 }
 
 div.bottom div.right {
+    position: relative;
     grid-column: 3;
-    margin: 0;
     margin: auto 0 0 0;
     float: left;
     padding: 0;
+}
 
+div.bottom div.right p.floatMark {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    bottom: 0;
 }
