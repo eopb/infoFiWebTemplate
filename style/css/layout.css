@@ -1,12 +1,12 @@
-@import url('layoutDesktop.css') (orientation:landscape);
-@import url('layoutMobile.css') (orientation:portrait);
+@import url('desktop/layoutDesktop.css') (orientation:landscape);
+@import url('mobile/layoutMobile.css') (orientation:portrait);
 
 html,
 body {
     height: 100%;
 }
 
-.layout {
+.fullBodyLayout {
     display: grid;
     grid-gap: 0px;
     height: 100%;
