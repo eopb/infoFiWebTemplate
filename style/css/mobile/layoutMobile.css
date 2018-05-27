@@ -1,9 +1,16 @@
 .fullBodyLayout {
     grid-auto-flow: row;
-    grid-template-rows: min-content auto min-content;
+    grid-template-rows: min-content min-content auto;
+}
+div.fullBodyLayout div.headerText {
+    grid-row: 1;
+}
+div.fullBodyLayout div.menuButtons {
+    grid-row: 2;
 }
 
-.bottom {
+div.bottom {
+    grid-row: 3;
     display: grid;
     position: relative;
     grid-auto-flow: column;
