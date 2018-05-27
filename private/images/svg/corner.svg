@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="39.38"
-     inkscape:cx="6.8318944"
-     inkscape:cy="7.4413408"
+     inkscape:cx="2.7054343"
+     inkscape:cy="5.4098527"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,8 +39,11 @@
      inkscape:window-maximized="1"
      inkscape:grid-bbox="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="false"
-     inkscape:snap-page="true" />
+     inkscape:bbox-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true" />
   <defs
      id="defs815" />
   <metadata
@@ -56,11 +59,6 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="Layer 1"
-     style="display:inline;opacity:0.98000004" />
-  <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="layer 2"
@@ -71,5 +69,29 @@
        id="path1374-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     style="display:inline;opacity:0.98000004">
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.71670985;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1374"
+       cx="11.489787"
+       cy="11.480975"
+       rx="4.1518583"
+       ry="4.1606708" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.74462414px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19361559"
+       x="9.4938917"
+       y="14.335202"
+       id="text5068"><tspan
+         sodipodi:role="line"
+         id="tspan5066"
+         x="9.4938917"
+         y="14.335202"
+         style="stroke-width:0.19361559">?</tspan></text>
   </g>
 </svg>
