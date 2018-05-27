@@ -25,7 +25,13 @@ div.bottom div.right {
 
 div.bottom div.right p.floatMark {
     position: absolute;
-    margin: 0;
+    font-size: 25vw;
+    margin: 0 0 0 0;
+    padding: 0;
     right: 0;
-    bottom: 0;
+    bottom: 100px;
+    line-height: 1vw;
+    transform: scale(1, 1);
+    transform: rotate(-45deg);
+    
 }
