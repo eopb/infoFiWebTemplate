@@ -2,6 +2,10 @@
 @import url('styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 @import url('button.css');
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-light.ttf");
+}
 
 body {
     margin: 0;
