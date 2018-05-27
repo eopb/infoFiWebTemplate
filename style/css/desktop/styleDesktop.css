@@ -3,8 +3,8 @@ h1 {
     font-size: 7.142857143vw;
 }
 
-div.buttonArea {
-    background-image: url("../private/images/tempTower.jpg");
+div.buttonsArea {
+    background-image: url("../../../private/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom left;

@@ -2,12 +2,12 @@ h1 {
     font-size: 63px;
 }
 
-.bottomImage{
+.bottom{
     min-height: 100%;
     width: 100%;
 }
 
-div.bottom img.middle {
+div.bottom div.middle {
     filter: drop-shadow( -5px 2px 5px rgba(0, 0, 0, 0.4) );
 }
 

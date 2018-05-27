@@ -1,4 +1,4 @@
-.layout {
+.fullBodyLayout {
     grid-auto-flow: row;
     grid-template-rows: min-content auto min-content;
 }
@@ -10,7 +10,7 @@
     grid-template-columns: 33% auto 33%;
 }
 
-div.bottom img.middle {
+div.bottom div.middle {
     grid-column: 2;
     margin: auto;
 }
