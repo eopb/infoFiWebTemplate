@@ -3,6 +3,10 @@
 @import url('layout.css');
 @import url('style.css');
 
+body {
+    background-color: #4fbdff;
+}
+
 h1 {
     color: #fff;
     text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
