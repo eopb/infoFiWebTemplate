@@ -17,3 +17,10 @@ h1 {
     padding: 10px;
     background-color: #4fbdff;
 }
+
+.fullBodyLayout {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: min-content min-content auto min-content;
+}
