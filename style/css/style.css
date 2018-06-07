@@ -6,6 +6,15 @@
     src: url("../fonts/Roboto/Roboto-light.ttf");
 }
 
+h1 {
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+    margin: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
     padding: 0;

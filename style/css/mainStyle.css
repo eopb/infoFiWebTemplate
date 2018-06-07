@@ -8,10 +8,8 @@ body {
 }
 
 h1 {
-    color: #fff;
-    text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
-    margin: 20px;
     text-align: center;
+    color: #fff;
 }
 
 div.bottom div.right {
