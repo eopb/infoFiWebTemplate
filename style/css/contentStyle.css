@@ -13,7 +13,21 @@ h1 {
     background-color: #4fbdff;
 }
 
+p{
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px 0px 10px 40px;
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
 .buttonsArea {
+    margin: 0px 0px 20px 0px;
     padding: 10px;
     background-color: #4fbdff;
 }
