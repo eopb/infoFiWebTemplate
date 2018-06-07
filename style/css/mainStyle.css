@@ -1,12 +1,7 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
-@font-face {
-    font-family: Roboto;
-    src: url("../fonts/Roboto/Roboto-light.ttf");
-}
-
-
+@import url('style.css');
 
 h1 {
     color: #fff;
