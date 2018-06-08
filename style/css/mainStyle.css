@@ -15,3 +15,6 @@ h1 {
 div.bottom div.right {
     filter: drop-shadow( -0px -0px 15px rgba(0, 0, 0, 0.6) );
 }
+.button {
+    font-size: 75px;
+}
