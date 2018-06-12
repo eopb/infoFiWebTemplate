@@ -1,5 +1,14 @@
 @import url('style.css');
 
+.line{
+    margin: 0 0 0 35px;
+    padding: 0 0 0 0;
+    width: 400px;
+    height: 5px;
+    border-top: 3px solid rgb(29, 29, 29);
+    position: inherit;
+}
+
 
 body {
     background-color: #fff;
@@ -9,22 +18,19 @@ h1 {
     color: #fff;
     font-size: 50px;
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     background-color: #4fbdff;
 }
 
 p{
     padding: 10px;
+    font-size: 20px;
     text-align: justify;
 }
 
 h2 {
-    margin: 10px 0px 10px 40px;
+    margin: 10px 0px 0px 40px;
     font-size: 50px;
-}
-
-h2 {
-    text-decoration: underline;
 }
 
 .buttonsArea {
