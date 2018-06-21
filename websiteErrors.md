@@ -25,7 +25,7 @@
 
 ## Select a room
 
-- [ ] 1920 x 1080 (Including Navigation Buttons)
+1920 x 1080 (Including Navigation Buttons)
 
 ## Portrait
 
@@ -36,7 +36,7 @@ at the bottom)
 
 ## Outside
 
-- [ ] 1920 x 1080 (Including Navigation Buttons)
+1920 x 1080 (Including Navigation Buttons)
 
 ## Portrait
 
