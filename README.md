@@ -1,2 +1,2 @@
 # infoFiWebtTemplate
-Web template for the infoFi Project.
+Highly responsive website for the infofi project.
