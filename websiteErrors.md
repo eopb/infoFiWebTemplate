@@ -3,7 +3,7 @@
 
 - [ ] Any image that isn’t landscape should have text wraparound
 
-- [ ] The text size in the start button in my opinion should be the same size as the header text
+- [x] The text size in the start button in my opinion should be the same size as the header text
 
 - [ ] When opened is not full scale
 
