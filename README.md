@@ -3,7 +3,28 @@ Highly responsive website for the infofi project.
 
 # Sitemap
 
-Option 1
+Current
+---------
+
+Language en. /en/
+
+    ↓
+
+Main page /en/home/
+
+    ↓
+
+Option page /en/home/choice/
+
+    ↓                                              ↓
+
+Room Choice /en/home/roomChoice/----------Info page page /en/home/[?info]
+
+    ↓
+
+Room Choice /en/home/room/[?room]
+
+Alternative Option 1
 ---------
 
 Language en. /en/
@@ -15,7 +36,7 @@ Option page /en/home/choice/
 Media page /en/home/choice/[?mediaPage]
 
 
-Option 2
+Alternative Option 2
 ---------
 
 Language en. /en/
