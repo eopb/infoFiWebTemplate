@@ -4,13 +4,13 @@
 @import url('style.css');
 
 body {
-    background-color: #4fbdff;
+    background-color: white;
 }
 
 h1 {
     
     text-align: center;
-    color: #fff;
+    color: #2f58c6;
 }
 
 div.bottom div.right {
