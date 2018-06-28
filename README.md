@@ -24,7 +24,7 @@ Room Choice /en/home/roomChoice/----------Info page page /en/home/[?info]
 
 Room Choice /en/home/room/[?room]
 
-Alternative Option 1
+<!-- Alternative Option 1
 ---------
 
 Language en. /en/
@@ -51,4 +51,4 @@ Room page /en/home/map/[?room]
 
 ?mediaPage = [Audio, Video, Text]
 
-?room = [outside, roof, middle floor, bottom floor, gun powder room,]
+?room = [outside, roof, middle floor, bottom floor, gun powder room,] -->
