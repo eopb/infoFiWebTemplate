@@ -39,7 +39,7 @@
      id="namedview2114"
      showgrid="false"
      inkscape:zoom="59"
-     inkscape:cx="9.4925208"
+     inkscape:cx="6.7382835"
      inkscape:cy="6.0535635"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -110,7 +110,7 @@
      id="path2102"
      style="fill:#fdfdfd;fill-opacity:1" />
   <ellipse
-     style="fill:none;stroke:#0072b6;stroke-width:0.72000003;stroke-opacity:1;filter:url(#a)"
+     style="fill:none;stroke:#2f58c6;stroke-width:0.72000003;stroke-opacity:1;filter:url(#a)"
      id="ellipse2104"
      transform="matrix(0.92712,0,0,0.92712,0.73,0.73)"
      ry="4.1599998"
@@ -119,7 +119,7 @@
      cx="11.49" />
   <g
      id="g2108"
-     style="line-height:1.25;stroke:none;stroke-opacity:1;fill-opacity:1;fill:#0071b4">
+     style="line-height:1.25;stroke:none;stroke-opacity:1;fill-opacity:1;fill:#2f58c6">
     <path
        inkscape:connector-curvature="0"
        id="path2106"
@@ -129,7 +129,7 @@
        font-weight="400"
        transform="matrix(0.97235,0,0,0.92508,0.56,0.7)"
        aria-label="?"
-       style="font-weight:400;font-size:7.73999977px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0;word-spacing:0;fill:#0071b4;stroke:none;stroke-width:0.19;stroke-opacity:1;filter:url(#b);fill-opacity:1"
+       style="font-weight:400;font-size:7.73999977px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0;word-spacing:0;fill:#2f58c6;stroke:none;stroke-width:0.19;stroke-opacity:1;filter:url(#b);fill-opacity:1"
        d="M 9.64,9.24 9.92,9.02 q 0.16,-0.1 0.34,-0.18 0.19,-0.08 0.4,-0.12 0.21,-0.05 0.46,-0.05 0.34,0 0.61,0.1 0.28,0.09 0.48,0.26 0.2,0.17 0.3,0.42 0.11,0.24 0.11,0.54 0,0.3 -0.08,0.52 -0.09,0.2 -0.22,0.37 -0.13,0.16 -0.28,0.27 l -0.28,0.22 q -0.14,0.1 -0.24,0.2 -0.1,0.1 -0.12,0.22 l -0.09,0.57 H 10.66 L 10.59,11.73 V 11.7 11.66 q 0,-0.17 0.08,-0.3 0.09,-0.12 0.22,-0.23 l 0.27,-0.21 q 0.15,-0.1 0.28,-0.23 0.13,-0.12 0.21,-0.28 0.09,-0.15 0.09,-0.36 0,-0.14 -0.06,-0.25 Q 11.63,9.69 11.54,9.61 11.44,9.53 11.31,9.49 11.19,9.44 11.04,9.44 10.81,9.44 10.66,9.49 10.51,9.54 10.4,9.6 l -0.18,0.11 q -0.07,0.05 -0.13,0.05 -0.14,0 -0.2,-0.12 z m 0.73,4.57 q 0,-0.12 0.04,-0.23 0.05,-0.1 0.13,-0.19 0.08,-0.07 0.19,-0.12 0.1,-0.05 0.23,-0.05 0.12,0 0.23,0.05 0.1,0.05 0.18,0.12 0.08,0.08 0.13,0.19 0.04,0.1 0.04,0.23 0,0.12 -0.04,0.23 -0.05,0.1 -0.13,0.18 -0.08,0.08 -0.18,0.12 -0.11,0.05 -0.23,0.05 -0.13,0 -0.23,-0.05 -0.11,-0.04 -0.2,-0.12 -0.07,-0.07 -0.12,-0.18 -0.04,-0.1 -0.04,-0.23 z" />
   </g>
 </svg>
