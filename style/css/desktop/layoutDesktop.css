@@ -8,10 +8,12 @@ div.bottom div.middle img {
 }
 
 div.headerText {
+    z-index: 2;
     display: grid;
     grid-gap: 0px;
     grid-auto-flow: row;
     grid-template-rows: auto min-content auto;
+    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 30px;
 }
 
 div.headerText h1 {
@@ -19,6 +21,7 @@ div.headerText h1 {
 }  
 
 div.buttonsArea {
+    z-index: 1;
     display: grid;
     position: relative;
     grid-gap: 0px;
