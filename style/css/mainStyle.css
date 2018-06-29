@@ -15,7 +15,14 @@ h1 {
 
 div.bottom div.right {
     filter: drop-shadow( -0px -0px 15px rgba(0, 0, 0, 0.6) );
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
+
+div.bottom div.right:hover {
+    filter: drop-shadow( -0px -0px 3px rgba(0, 0, 0, 0.6) );
+}
+
 .button {
     font-size: 75px;
 }
