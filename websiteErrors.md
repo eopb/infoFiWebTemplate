@@ -39,7 +39,7 @@ What Image.
 
 ## Portrait
 
-- [ ] Buttons need about 2mm gap vertically (Same gap for the nice little Wish Tower 
+- [x] Buttons need about 2mm gap vertically (Same gap for the nice little Wish Tower 
 at the bottom)
 
 ## Outside
