@@ -1,6 +1,28 @@
-h1 {
-    font-size: 75px;
+@media (min-width: 450px) {
+    h1 {
+        font-size: 75px;
+        transition-duration: 0.4s;
+    }
 }
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 450px) {
+    .button {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 450px) {
+    .button {
+        font-size: 55px;
+    }
+}
+
 
 .bottom{
     min-height: 100%;

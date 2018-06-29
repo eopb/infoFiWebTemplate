@@ -4,6 +4,10 @@ h1 {
 /*    font-size: 17ch;*/
 }
 
+.button {
+    font-size: 75px;
+}
+
 div.buttonsArea {
     background-image: url("../../../private/images/background.jpg");
     background-repeat: no-repeat;
