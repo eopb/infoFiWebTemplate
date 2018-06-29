@@ -19,7 +19,7 @@
 
 - [ ] Navigation buttons cover the side of the start button
 
-- [ ] Start button does not fit inside the image and needs to be smaller (leave an inside gap of 2 mm)
+- [x] Start button does not fit inside the image and needs to be smaller (leave an inside gap of 2 mm)
 
 - [ ] Small blue gap at the side of the image
 
