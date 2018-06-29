@@ -15,3 +15,9 @@ body {
 div.bottom img {
     width: 100%;
 }
+
+div.menuButtons {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+}
