@@ -35,5 +35,8 @@ div.bottom div.right {
     margin: auto 0 0 0;
     float: left;
     padding: 0;
+}
 
+div.menuButtons {
+    grid-template-rows: repeat(20, min-content);
 }
