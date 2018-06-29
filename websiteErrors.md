@@ -13,7 +13,7 @@
 
 ## Portrait
 
-- [ ] The help button and help button background are both white
+- [x] The help button and help button background are both white
 
 ## Landscape
 
