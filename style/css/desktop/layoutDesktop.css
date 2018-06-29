@@ -35,7 +35,7 @@ div.buttonsArea div.menuButtons {
 }
 
 
-div.bottom div.right img{
-    grid-row: 2;
+div.bottom {
+    grid-row: 3;
     grid-column: 3;
 }
