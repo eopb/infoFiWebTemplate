@@ -19,7 +19,6 @@
     display: inline-block;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
