@@ -1,0 +1,56 @@
+{
+  "htmlFiles": [
+    {
+      "fileId": "0B8f9GrNGdmOkeVQ5SEhXSHNxWTA",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    },
+    {
+      "fileId": "0B8f9GrNGdmOkUGwzVjlKR0RFbDA",
+      "contentType": "text/html",
+      "name": "contact.html",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    },
+    {
+      "fileId": "0B8f9GrNGdmOkTnNhTnVKajNNdTA",
+      "contentType": "text/html",
+      "name": "choice.html",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    },
+    {
+      "fileId": "0B8f9GrNGdmOkQjFPQVBfbE9BVGM",
+      "contentType": "text/html",
+      "name": "middlePage.html",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    },
+    {
+      "fileId": "0B8f9GrNGdmOkMUVGVWY3aGk0M1E",
+      "contentType": "text/html",
+      "name": "About.html",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "0B8f9GrNGdmOkeDhhZ1RZQnFkU1E",
+      "contentType": "text/css",
+      "name": "style.css",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    },
+    {
+      "fileId": "0B8f9GrNGdmOkczc2MF9YdHpjTTA",
+      "contentType": "text/css",
+      "name": "styles.css",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "0B8f9GrNGdmOkRUlMUEh0UU1MSlk",
+      "contentType": "text/javascript",
+      "name": "script.js",
+      "path": "0B8f9GrNGdmOkdVJDRUtwOF9rcHc/"
+    }
+  ]
+}
