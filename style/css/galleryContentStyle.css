@@ -1,9 +1,6 @@
 @import url('style.css');
 
 .fullBodyLayout {
-    min-height: 100vh;
-    display: grid;
-    grid-auto-flow: row;
     grid-template-rows: min-content min-content min-content min-content auto min-content;
 }
 
@@ -31,12 +28,6 @@ h1 {
     background-color: #4fbdff;
 }
 
-p {
-    padding: 10px;
-    font-size: 20px;
-    text-align: justify;
-}
-
 h2 {
     margin: 10px 0px 0px 40px;
     font-size: 50px;
@@ -52,13 +43,6 @@ h2 {
 
 .button {
     font-size: 50px;
-}
-
-div.mainContentText img {
-    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px; 
-    /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
-    display: block;
-    width: 40%;
 }
 
 img.floatRight{
