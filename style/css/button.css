@@ -9,7 +9,7 @@
     
     background-color: var(--buttonColour);
     border-radius: 20px;
-    color: white;
+    color: var(--buttonTextColour);
     font-weight: bold;
     /* padding: 5px 70px 5px 70px; */
     padding-top: 5px;
