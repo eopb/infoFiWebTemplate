@@ -2,6 +2,6 @@
     --buttonColour: #2f58c6;
     --headingTextColour: #2f58c6;
     --background: white;
-    --buttonTextColour: var(--headingTextColour);
+    --buttonTextColour: #fff;
     --textBackground: #fff;
 }
