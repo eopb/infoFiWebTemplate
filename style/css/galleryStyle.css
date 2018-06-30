@@ -1,6 +1,10 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
 
+.fullBodyLayout {
+    grid-template-rows: min-content min-content min-content auto min-content;
+}
+
 div.mainContentGallery:active img {
     width: 10%;
 }
