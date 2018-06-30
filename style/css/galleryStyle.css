@@ -4,3 +4,13 @@
 img {
     width: 100%;
 }
+
+img:hover {
+    z-index: 2;
+}
+
+div.mainContentGallery {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
