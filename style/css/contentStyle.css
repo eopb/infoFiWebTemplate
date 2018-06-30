@@ -1,2 +1,8 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
+
+.fullBodyLayout {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
+}
