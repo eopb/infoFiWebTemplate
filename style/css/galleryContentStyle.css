@@ -23,11 +23,12 @@ body {
 
 h1 {
     z-index: 2;
+    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
     color: #fff;
     font-size: 50px;
     margin: 0;
     padding: 10px 10px 10px 10px;
-    background-color: #2f58c6;
+    background-color: #4fbdff;
 }
 
 p {
@@ -43,9 +44,10 @@ h2 {
 
 .buttonsArea {
     z-index: 2;
+    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
     margin: 0px 0px 20px 0px;
     padding: 5px;
-    background-color: white;
+    background-color: #4fbdff;
 }
 
 .button {
@@ -53,7 +55,8 @@ h2 {
 }
 
 div.mainContentText img {
-    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px; 
+    /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
     display: block;
     width: 40%;
 }
@@ -70,4 +73,3 @@ img.floatCenter{
     margin-left: auto;
     margin-right: auto;
 }
-@import url('galleryContentStyle.css');
