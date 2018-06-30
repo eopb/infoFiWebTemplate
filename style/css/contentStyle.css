@@ -1,5 +1,12 @@
 @import url('style.css');
 
+.fullBodyLayout {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: min-content min-content min-content min-content auto min-content;
+}
+
 .line{
     margin: 0 0 0 35px;
     padding: 0 0 0 0;
@@ -41,13 +48,6 @@ h2 {
     margin: 0px 0px 20px 0px;
     padding: 5px;
     background-color: #4fbdff;
-}
-
-.fullBodyLayout {
-    min-height: 100vh;
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-rows: min-content min-content auto min-content;
 }
 
 .button {
