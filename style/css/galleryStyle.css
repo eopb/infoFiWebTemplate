@@ -3,14 +3,19 @@
 
 img {
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; 
+    transition-duration: 0.4s;
 }
 
 img:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 20px; 
     z-index: 2;
+    transform: scale(1.5,1.5)
 }
 
 div.mainContentGallery {
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
 }
