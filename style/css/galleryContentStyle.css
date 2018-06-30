@@ -45,7 +45,6 @@ h2 {
 
 img.floatRight{
     float: left;
-    image-orientation: from-image;
     clip-path: ellipse(50% 50% at 50% 50%);
     margin: 20px;
     shape-outside: ellipse(50% 50% at 50% 50%);
@@ -54,4 +53,8 @@ img.floatRight{
 img.floatCenter{
     margin-left: auto;
     margin-right: auto;
+}
+
+img {
+    image-orientation: from-image;
 }
