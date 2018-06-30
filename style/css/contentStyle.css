@@ -23,7 +23,6 @@ body {
 
 h1 {
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
     color: #fff;
     font-size: 50px;
     margin: 0;
@@ -44,7 +43,6 @@ h2 {
 
 .buttonsArea {
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
     margin: 0px 0px 20px 0px;
     padding: 5px;
     background-color: white;
