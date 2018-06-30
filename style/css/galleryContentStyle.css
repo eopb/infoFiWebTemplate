@@ -17,7 +17,7 @@
 
 
 body {
-    background-color: #fff;
+    background-color: var(--textBackground);
 }
 
 h1 {

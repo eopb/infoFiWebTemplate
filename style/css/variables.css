@@ -1,8 +1,7 @@
 :root {
     --background: #4fbdff;
     --headingTextColour: #fff;
-    --buttonColour: #000;
-    --buttonColour: #000;
-    --buttonTextColour: #000;
-    --textBackground: #000;
+    --buttonColour: #616161;
+    --buttonTextColour: var(--headingTextColour);
+    --textBackground: #fff;
 }
