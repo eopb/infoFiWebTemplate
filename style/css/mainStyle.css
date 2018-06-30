@@ -3,14 +3,15 @@
 @import url('layout.css');
 @import url('style.css');
 
+
 body {
-    background-color: #4fbdff;
+    background-color: var(--background);
 }
 
 h1 {
     
     text-align: center;
-    color: #fff;
+    color: var(--headingTextColour);
 }
 
 div.bottom div.right {

@@ -1,7 +1,9 @@
 @import url('style.css');
 
 .fullBodyLayout {
-    grid-template-rows: min-content min-content min-content min-content auto min-content;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .line{
@@ -15,7 +17,7 @@
 
 
 body {
-    background-color: #fff;
+    background-color: var(--textBackground);
 }
 
 h1 {
@@ -25,7 +27,7 @@ h1 {
     font-size: 50px;
     margin: 0;
     padding: 10px 10px 10px 10px;
-    background-color: #4fbdff;
+    background-color: var(--background);
 }
 
 h2 {
@@ -38,7 +40,7 @@ h2 {
     box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
     margin: 0px 0px 20px 0px;
     padding: 5px;
-    background-color: #4fbdff;
+    background-color: var(--background);
 }
 
 .button {
