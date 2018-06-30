@@ -55,15 +55,18 @@ h2 {
 }
 
 div.mainContentText img {
-    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px; 
+    /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
     display: block;
-    width: 80%;
+    width: 40%;
 }
 
 img.floatRight{
     float: left;
     image-orientation: from-image;
     clip-path: ellipse(50% 50% at 50% 50%);
+    margin: 20px;
+    shape-outside: ellipse(50% 50% at 50% 50%);
 }
 
 img.floatCenter{
