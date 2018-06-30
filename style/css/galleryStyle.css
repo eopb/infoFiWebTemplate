@@ -1,2 +1,6 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
+
+img {
+    width: 100%;
+}
