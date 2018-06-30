@@ -8,9 +8,9 @@ img {
 }
 
 img:hover {
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 20px; 
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px; 
     z-index: 2;
-    transform: scale(1.5,1.5)
+    transform: scale(1.2,1.2)
 }
 
 div.mainContentGallery {
