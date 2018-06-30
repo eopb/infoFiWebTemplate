@@ -1,7 +1,7 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
 
-div.mainContentGallery:hover img {
+div.mainContentGallery:active img {
     width: 10%;
 }
 
@@ -11,7 +11,7 @@ img {
     transition-duration: 0.4s;
 }
 
-div.mainContentGallery:hover img:hover {
+div.mainContentGallery:active img:active {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px; 
     z-index: 2;
@@ -23,6 +23,6 @@ div.mainContentGallery:hover img:hover {
 div.mainContentGallery {
     display: grid;
     grid-gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 
 }
