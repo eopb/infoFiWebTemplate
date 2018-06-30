@@ -1,7 +1,9 @@
 @import url('style.css');
 
 .fullBodyLayout {
-    grid-template-rows: min-content min-content min-content min-content auto min-content;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .line{
