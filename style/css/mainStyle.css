@@ -11,7 +11,7 @@ body {
 h1 {
     
     text-align: center;
-    color: #2f58c6;
+    color: var(--headingTextColour);
 }
 
 div.bottom div.right {
