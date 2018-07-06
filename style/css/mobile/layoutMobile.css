@@ -37,6 +37,19 @@ div.bottom div.right {
     padding: 0;
 }
 
-div.menuButtons {
-    grid-template-rows: repeat(20, min-content);
+
+div.menuButtons1 {
+    grid-template-rows: repeat(1, min-content);
+}
+
+div.menuButtons4 {
+    grid-template-rows: repeat(4, min-content);
+}
+
+div.menuButtons5 {
+    grid-template-rows: repeat(5, min-content);
+}
+
+div.menuButtons6 {
+    grid-template-rows: repeat(6, min-content);
 }
