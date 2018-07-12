@@ -25,8 +25,15 @@ div.buttonsArea {
     display: grid;
     position: relative;
     grid-gap: 0px;
-    grid-template-rows: auto min-content calc(((100vh - 101px) / 2) - (100vw / 6)) min-content;
     grid-template-columns: auto auto auto;
+}
+
+div.buttonsAreaWithHelp {
+    grid-template-rows: auto min-content calc(((100vh - 101px) / 2) - (100vw / 6)) min-content;
+}
+
+div.buttonsAreaNoHelp {
+    grid-template-rows: auto min-content auto;
 }
 
 div.buttonsArea div.menuButtons {
