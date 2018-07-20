@@ -14,12 +14,23 @@ img {
 img:hover {
     box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px; 
     z-index: 2;
-    transform: scale(1.2,1.2)
+    transform: scale(1.05,1.05)
 }
 
 div.mainContentGallery {
     display: grid;
+    margin: 10px;
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 
+}
+
+div.galleryCell {
+    background-color: green;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
+    transition-duration: 0.4s; 
+}
+
+div.galleryCell:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
 }
