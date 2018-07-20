@@ -135,7 +135,7 @@ Browser: Chrome.
 
 Device: LG K8 4G.
 
-- [ ] ...
+- [x] ...
 
 What: All back buttons take you to the room select even if the only way to get the specific pages is through the main menu.
 
