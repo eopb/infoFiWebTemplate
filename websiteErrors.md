@@ -145,7 +145,7 @@ Browser: All browsers.
 
 Device: All devices.
 
-- [ ] ...
+- [x] ...
 
 What: No return to main menu button in the room select, making it impossible without changing the URL to go back to the main menu.
 
