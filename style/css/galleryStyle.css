@@ -14,12 +14,36 @@ img {
 img:hover {
     box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px; 
     z-index: 2;
-    transform: scale(1.2,1.2)
+    transform: scale(1.05,1.05)
 }
 
 div.mainContentGallery {
     display: grid;
+    margin: 10px;
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 
+}
+
+div.galleryCell {
+    background-color: var(--buttonColour);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
+    transition-duration: 0.4s;
+    border-bottom: solid 6px;
+    border-color: #363636;
+    border-radius: 10px; 
+}
+
+div.galleryCell:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px; 
+}
+
+div.galleryCell p {
+    margin: 0 10px 5px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.galleryCell img {
+    border-radius: 5px;
 }
