@@ -61,3 +61,12 @@ at the bottom)
 - [ ] Music bar should be in-line with the black title
 
 - [ ] Problem with button position when no help button.
+
+
+
+
+
+Sean
+
+- [] image compression.
+
