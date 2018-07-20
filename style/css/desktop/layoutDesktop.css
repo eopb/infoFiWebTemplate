@@ -56,3 +56,8 @@ div.right {
     grid-column: 3;
 }
 
+
+
+div.menuButtons7 a {
+    font-size: 70px;
+}
