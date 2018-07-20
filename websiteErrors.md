@@ -1,4 +1,5 @@
 # Website Errors
+# Qaz
 ## Applys To All
 
 - [x] Any image that isn’t landscape should have text wraparound
@@ -66,7 +67,110 @@ at the bottom)
 
 
 
-Sean
+# Sean
 
-- [] image compression.
+- [ ] image compression.
 
+# Dylan
+
+### Laptop using Chrome:
+- [ ] Help button leads to Roof page
+- [ ] Middle floor page image sideways
+- [ ] No back button on 'Select Room' page
+- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+
+### Laptop using Firefox:
+- [ ] Main menu page seems to be zoomed in
+- [ ] Middle floor page text doesnt wrap
+- [ ] No back button on 'Select Room' page
+- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+
+### HTC nexus tablet:
+- [ ] Start page help button (screenshot)
+- [ ] Middle floor page image sideways
+- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+
+# Charlie
+
+	PHONE
+
+
+- [ ] ...
+
+What: Text size inconsistant and hugging the wall of the page.
+
+Where: General Histrory.
+
+Browser: Chrome.
+
+Device: LG K8 4G & Samsung Galaxy S7.
+
+- [ ] ...
+
+What: Directional qoutes and double qoutes are apearing as random Ascii characters
+
+Where: General Histrory.
+
+Browser: Chrome.
+
+Device: LG K8 4G & Samsung Galaxy S7.
+
+- [ ] ...
+
+What: Photo is angled 90 degrees off.
+
+Where: Middle Floor.
+
+Browser: Chrome.
+
+Device: LG K8 4G & Samsung Galaxy S7.
+
+- [ ] ...
+
+What: Upcoming Events is bigger then the size of the clickable box.
+
+Where: Main menu.
+
+Browser: Chrome.
+
+Device: LG K8 4G.
+
+- [ ] ...
+
+What: All back buttons take you to the room select even if the only way to get the specific pages is through the main menu.
+
+Where: Every page with a back button.
+
+Browser: All browsers.
+
+Device: All devices.
+
+- [ ] ...
+
+What: No return to main menu button in the room select, making it impossible without changing the URL to go back to the main menu.
+
+Where: Middle Floor.
+
+Browser: All browsers.
+
+Device: All devices.
+
+- [ ] ...
+
+What: The images on pages load rather slowly.
+
+Where: Pages with pictures.
+
+Browser: Chrome.
+
+Device: LG K8 4G.
+
+- [ ] ...
+
+What: Audio players are rather small, might be worth increases the size.
+
+Where: Pages with pictures.
+
+Browser: Chrome.
+
+Device: LG K8 4G & Samsung Galaxy S7.
