@@ -28,12 +28,16 @@ div.mainContentGallery {
     div.mainContentGallery {
        grid-template-columns: repeat(auto-fit, 1fr);
     }
-    @media only screen and (orientation:landscape) {
-        grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+
+}
+
+@media only screen and (orientation:landscape) and (max-width: 1000px) {
+    div.mainContentGallery {
+        grid-template-columns: auto auto;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     div.mainContentGallery {
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
