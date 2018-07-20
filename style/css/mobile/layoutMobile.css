@@ -49,3 +49,7 @@ div.menuButtons4 {
 div.menuButtons5 {
     grid-template-rows: repeat(5, min-content);
 }
+
+div.menuButtons6 {
+    grid-template-rows: repeat(6, min-content);
+}
