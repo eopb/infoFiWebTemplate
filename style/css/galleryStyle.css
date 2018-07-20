@@ -21,9 +21,21 @@ div.mainContentGallery {
     display: grid;
     margin: 10px;
     grid-gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-
+    
 }
+
+@media only screen and (max-width: 600px) {
+    div.mainContentGallery {
+       grid-template-columns: repeat(auto-fit, 1fr);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    div.mainContentGallery {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+}
+
 
 div.galleryCell {
     background-color: var(--buttonColour);
