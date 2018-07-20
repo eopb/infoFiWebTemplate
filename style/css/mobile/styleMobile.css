@@ -8,12 +8,21 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 450px) and (min-width: 430px){
     h1 {
         font-size: 55px;
     }
     .button {
         font-size: 55px;
+    }
+}
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: 55px;
+    }
+    .button {
+        font-size: 40px;
     }
 }
 
