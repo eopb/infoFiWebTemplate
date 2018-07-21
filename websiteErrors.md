@@ -125,7 +125,7 @@ Browser: Chrome.
 
 Device: LG K8 4G & Samsung Galaxy S7.
 
-- [ ] ...
+- [x] ...
 
 What: Upcoming Events is bigger then the size of the clickable box.
 
