@@ -95,7 +95,7 @@ at the bottom)
 	PHONE
 
 
-- [ ] ...
+- [x] ...
 
 What: Text size inconsistant and hugging the wall of the page.
 
@@ -105,7 +105,7 @@ Browser: Chrome.
 
 Device: LG K8 4G & Samsung Galaxy S7.
 
-- [ ] ...
+- [x] ...
 
 What: Directional qoutes and double qoutes are apearing as random Ascii characters
 
