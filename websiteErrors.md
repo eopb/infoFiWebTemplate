@@ -74,7 +74,7 @@ at the bottom)
 # Dylan
 
 ### Laptop using Chrome:
-- [ ] Help button leads to Roof page
+- [x] Help button leads to Roof page
 - [ ] Middle floor page image sideways
 - [ ] No back button on 'Select Room' page
 - [ ] Back button leads to 'Select Room' page from any page other than images in gallery
