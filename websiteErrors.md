@@ -76,8 +76,8 @@ at the bottom)
 ### Laptop using Chrome:
 - [x] Help button leads to Roof page
 - [ ] Middle floor page image sideways
-- [ ] No back button on 'Select Room' page
-- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+- [x] No back button on 'Select Room' page
+- [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
 ### Laptop using Firefox:
 - [ ] Main menu page seems to be zoomed in
