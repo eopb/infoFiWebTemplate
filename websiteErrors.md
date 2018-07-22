@@ -74,21 +74,21 @@ at the bottom)
 # Dylan
 
 ### Laptop using Chrome:
-- [ ] Help button leads to Roof page
+- [x] Help button leads to Roof page
 - [ ] Middle floor page image sideways
-- [ ] No back button on 'Select Room' page
-- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+- [x] No back button on 'Select Room' page
+- [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
 ### Laptop using Firefox:
 - [ ] Main menu page seems to be zoomed in
 - [ ] Middle floor page text doesnt wrap
-- [ ] No back button on 'Select Room' page
-- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+- [x] No back button on 'Select Room' page
+- [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
 ### HTC nexus tablet:
 - [ ] Start page help button (screenshot)
 - [ ] Middle floor page image sideways
-- [ ] Back button leads to 'Select Room' page from any page other than images in gallery
+- [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
 # Charlie
 
