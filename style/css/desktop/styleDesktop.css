@@ -15,7 +15,7 @@ div.buttonsArea {
     background-position: bottom left;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
     .button {
         font-size: 40px;
         transition-duration: 0.4s;
