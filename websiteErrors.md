@@ -53,7 +53,7 @@ at the bottom)
 
 - [ ] Gap above and below the music button should in my opinion be the same
 
-- [ ] Image is taking more than 5 seconds to load
+- [x] Image is taking more than 5 seconds to load
 
 - [ ] Ugly white gap under footer
 
@@ -69,13 +69,13 @@ at the bottom)
 
 # Sean
 
-- [ ] image compression.
+- [x] image compression.
 
 # Dylan
 
 ### Laptop using Chrome:
 - [x] Help button leads to Roof page
-- [ ] Middle floor page image sideways
+- [x] Middle floor page image sideways
 - [x] No back button on 'Select Room' page
 - [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
@@ -87,7 +87,7 @@ at the bottom)
 
 ### HTC nexus tablet:
 - [ ] Start page help button (screenshot)
-- [ ] Middle floor page image sideways
+- [x] Middle floor page image sideways
 - [x] Back button leads to 'Select Room' page from any page other than images in gallery
 
 # Charlie
@@ -115,7 +115,7 @@ Browser: Chrome.
 
 Device: LG K8 4G & Samsung Galaxy S7.
 
-- [ ] ...
+- [x] ...
 
 What: Photo is angled 90 degrees off.
 
@@ -155,7 +155,7 @@ Browser: All browsers.
 
 Device: All devices.
 
-- [ ] ...
+- [x] ...
 
 What: The images on pages load rather slowly.
 
