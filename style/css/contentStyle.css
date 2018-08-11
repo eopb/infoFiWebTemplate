@@ -20,5 +20,4 @@ div.mainContentText img {
     box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px; 
     /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
     display: block;
-    width: 40%;
 }
