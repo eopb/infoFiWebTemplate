@@ -53,6 +53,7 @@ h2 {
 }
 
 img.floatRight{
+    width: 40%;
     float: left;
     clip-path: ellipse(50% 50% at 50% 50%);
     margin: 20px;
@@ -60,6 +61,8 @@ img.floatRight{
 }
 
 img.floatCenter{
+    max-width: 95%;
+    max-height: 80vh;
     margin-left: auto;
     margin-right: auto;
 }
