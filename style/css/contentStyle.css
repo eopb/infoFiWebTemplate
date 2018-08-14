@@ -4,6 +4,10 @@
     grid-template-rows: min-content min-content min-content min-content auto min-content;
 }
 
+.fullBodyLayout3 {
+    grid-template-rows: min-content auto min-content!important;
+}
+
 p {
     padding: 10px;
     font-size: 20px;
