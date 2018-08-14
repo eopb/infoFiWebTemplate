@@ -43,8 +43,8 @@ h2 {
 
 .buttonsArea {
     z-index: 2;
-    margin: 0px 0px 20px 0px;
-    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 10px 5px;
     background-color: var(--background);
 }
 
