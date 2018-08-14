@@ -174,3 +174,8 @@ Where: Pages with pictures.
 Browser: Chrome.
 
 Device: LG K8 4G & Samsung Galaxy S7.
+
+
+# NEW STUFF
+
+MAKE A HELP PAGE
