@@ -1,6 +1,5 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
-
 .fullBodyLayout {
     grid-template-rows: min-content min-content min-content min-content auto min-content;
 }
@@ -15,9 +14,20 @@ li {
     font-size: 20px;
 }
 
-
 div.mainContentText img {
-    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px; 
+    box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px;
     /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
     display: block;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    audio {
+        margin: 10px;
+    }
+}
+
+@-moz-document url-prefix() {
+    audio {
+        margin: 0px;
+    }
 }
