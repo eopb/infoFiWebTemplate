@@ -1,12 +1,10 @@
 @import url('variables.css');
-
 .button {
-    display: block; 
+    display: block;
     justify-content: center;
     box-sizing: 100%;
     text-align: center;
     width: 60%;
-    
     background-color: var(--buttonColour);
     border-radius: 20px;
     color: var(--buttonTextColour);
@@ -20,9 +18,34 @@
     text-decoration: none;
     display: inline-block;
     margin: auto;
-
+    transition-duration: 0.4s;
 }
 
+
+/* a.button:link {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px, inset 0px 0px 0px 8px var(--buttonTextColour);
+}
+
+.button:active {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px, inset 0px 0px 0px 15px var(--buttonTextColour);
+}
+
+
+/* a.button:visited {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
 
 div.menuButtons {
     text-align: center;
