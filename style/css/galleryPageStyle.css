@@ -48,7 +48,8 @@ img.galleryArrow2 {
     z-index: 2;
     opacity: 0.5;
     grid-row: 1;
-    width: 100px;
+    max-width: 100px;
+    max-height: 100%;
     margin-top: auto;
     margin-bottom: auto;
     transition: 0.4s;
