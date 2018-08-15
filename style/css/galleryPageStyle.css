@@ -4,6 +4,7 @@
     grid-template-rows: auto min-content;
     grid-template-columns: min-content auto min-content;
     height: 100vh;
+    background-color: gray;
 }
 
 img.mainGalleryImg {
@@ -39,6 +40,7 @@ img.galleryArrow2 {
 
 img.galleryArrow1,
 img.galleryArrow2 {
+    filter: drop-shadow( -0px -0px 3px rgba(0, 0, 0, 0.6));
     z-index: 2;
     opacity: 0.5;
     grid-row: 1;
