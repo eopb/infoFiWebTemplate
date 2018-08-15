@@ -28,6 +28,7 @@ img.mainGalleryImg {
         box-shadow: unset;
     }
     .button {
+        z-index: 3;
         opacity: 0.7;
     }
     .button:hover {
