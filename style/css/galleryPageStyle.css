@@ -30,17 +30,24 @@ div.mainContentGallery {
 }
 
 img.galleryArrow1 {
-    z-index: 2;
     grid-column: 1;
-    grid-row: 1;
-    width: 100px;
-    margin: auto;
 }
 
 img.galleryArrow2 {
-    z-index: 2;
     grid-column: 3;
+}
+
+img.galleryArrow1,
+img.galleryArrow2 {
+    z-index: 2;
+    opacity: 0.5;
     grid-row: 1;
     width: 100px;
     margin: auto;
+    transition: 0.4s;
+}
+
+img.galleryArrow1:hover,
+img.galleryArrow2:hover {
+    opacity: 1;
 }
