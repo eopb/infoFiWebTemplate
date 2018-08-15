@@ -9,36 +9,34 @@
 
 @keyframes leftRotate {
     0% {
-        transform-origin: left middle;
-        transform: perspective(4000px) rotateX(-90deg) translateZ(0px);
+        transform-origin: center right;
+        transform: perspective(4000px) rotateY(-90deg) translateZ(0px);
     }
     100% {
-        transform-origin: left middle;
-        transform: perspective(4000px) rotateX(0deg) translateZ(0px);
+        transform-origin: center right;
+        transform: perspective(4000px) rotateY(0deg) translateZ(0px);
     }
 }
 
 @keyframes rightRotate {
     0% {
-        transform-origin: right center;
-        transform: perspective(4000px) rotateX(-90deg) translateZ(0px);
+        transform-origin: center left;
+        transform: perspective(4000px) rotateY(90deg) translateZ(0px);
     }
     100% {
-        transform-origin: right center;
-        transform: perspective(4000px) rotateX(0deg) translateZ(0px);
+        transform-origin: center left;
+        transform: perspective(4000px) rotateY(0deg) translateZ(0px);
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    @supports not (-ms-ime-align: auto) {
-        html {
-            /* animation: 1s ease-out 0s 1 blur; */
-        }
-        div.headerText {
-            animation: 1s ease-out 0s 1 leftRotate;
-        }
-        div.buttonsArea {
-            animation: 1s ease-out 0s 1 rightRotate;
-        }
+@media screen {
+    html {
+        /* animation: 1s ease-out 0s 1 blur; */
+    }
+    div.headerText {
+        animation: 1s ease-out 0s 1 leftRotate;
+    }
+    div.buttonsArea {
+        animation: 1s ease-out 0s 1 rightRotate;
     }
 }
