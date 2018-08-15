@@ -44,7 +44,7 @@ img.galleryArrow2 {
 
 img.galleryArrow1,
 img.galleryArrow2 {
-    filter: drop-shadow( -0px -0px 3px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow( -0px -0px 1px rgba(0, 0, 0, 0.6));
     z-index: 2;
     opacity: 0.5;
     grid-row: 1;
@@ -54,7 +54,16 @@ img.galleryArrow2 {
     transition: 0.4s;
 }
 
+img.galleryArrow1:hover {
+    margin-left: 0px;
+}
+
+img.galleryArrow2:hover {
+    margin-right: 0px;
+}
+
 img.galleryArrow1:hover,
 img.galleryArrow2:hover {
+    filter: drop-shadow( -0px -0px 3px rgba(0, 0, 0, 0.6));
     opacity: 1;
 }
