@@ -7,7 +7,7 @@
 }
 
 img.mainGalleryImg {
-    grid-column: 2;
+    grid-column: 1/4;
     grid-row: 1;
     max-height: 100%;
     max-width: 100%;
@@ -30,6 +30,7 @@ div.mainContentGallery {
 }
 
 img.galleryArrow1 {
+    z-index: 2;
     grid-column: 1;
     grid-row: 1;
     width: 100px;
@@ -37,6 +38,7 @@ img.galleryArrow1 {
 }
 
 img.galleryArrow2 {
+    z-index: 2;
     grid-column: 3;
     grid-row: 1;
     width: 100px;
