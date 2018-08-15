@@ -35,7 +35,7 @@ img.mainGalleryImg {
     }
 }
 
-*/ div.mainContentGallery {
+div.mainContentGallery {
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
