@@ -1,14 +1,15 @@
 h1 {
-/*    font-size: 100px;*/
+    /*    font-size: 100px;*/
     font-size: 7.142857143vw;
-/*    font-size: 17ch;*/
+    /*    font-size: 17ch;*/
 }
 
 .button {
     font-size: 75px;
 }
 
-div.buttonsArea {
+div.buttonsArea,
+.mapWrapper {
     background-image: url("../../../private/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
