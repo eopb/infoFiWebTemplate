@@ -4,13 +4,77 @@ div.mapWrapper {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 10px auto 10px;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 10px auto 100px;
 }
 
 .outside {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 100px;
     grid-column: 2;
     grid-row: 2;
     background-color: green;
     width: 100%;
     height: 100%;
+}
+
+.outside a {
+    grid-row: 3;
+}
+
+.roof {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 100px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+
+.roof a {
+    grid-row: 3;
+}
+
+.middleFloor {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 100px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.middleFloor a {
+    grid-row: 3;
+}
+
+.basement {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 100px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.basement a {
+    grid-row: 3;
 }
