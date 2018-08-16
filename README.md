@@ -52,3 +52,5 @@ Room page /en/home/map/[?room]
 ?mediaPage = [Audio, Video, Text]
 
 ?room = [outside, roof, middle floor, bottom floor, gun powder room,] -->
+
+Font awesome icons where used. https://fontawesome.com/license
