@@ -89,16 +89,16 @@ a.galleryArrow2 img {
     transition: 0.4s;
 }
 
-.galleryArrow1 img:hover {
+.galleryArrow1:hover img {
     margin-left: 0px;
 }
 
-.galleryArrow2 img:hover {
+.galleryArrow2:hover img {
     margin-right: 0px;
 }
 
-.galleryArrow1 img:hover,
-.galleryArrow2 img:hover {
+.galleryArrow1:hover img,
+.galleryArrow2:hover img {
     filter: drop-shadow( -0px -0px 3px rgba(0, 0, 0, 0.6));
     opacity: 1;
 }
