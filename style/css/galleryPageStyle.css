@@ -99,11 +99,13 @@ a.galleryArrow2 img {
 }
 
 .galleryArrow1 img:hover {
-    transform: perspective(100px) rotateY(-30deg) translateZ(10px);
+    transform-origin: right center;
+    transform: perspective(1000px) rotateY(-30deg) translateZ(0px);
 }
 
 .galleryArrow2 img:hover {
-    transform: perspective(100px) rotateY(30deg) translateZ(10px);
+    transform-origin: left center;
+    transform: perspective(1000px) rotateY(30deg) translateZ(0px);
 }
 
 .galleryArrow1:hover img,
