@@ -1,6 +1,5 @@
 @import url('desktop/layoutDesktop.css') (orientation:landscape);
 @import url('mobile/layoutMobile.css') (orientation:portrait);
-
 html,
 body {
     height: 100%;
