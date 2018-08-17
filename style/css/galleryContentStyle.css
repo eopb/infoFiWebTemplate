@@ -1,12 +1,11 @@
 @import url('style.css');
-
 .fullBodyLayout {
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
 }
 
-.line{
+.line {
     margin: 0 0 0 35px;
     padding: 0 0 0 0;
     width: 400px;
@@ -52,7 +51,7 @@ h2 {
     font-size: 50px;
 }
 
-img.floatRight{
+img.floatRight {
     width: 40%;
     float: left;
     clip-path: ellipse(50% 50% at 50% 50%);
@@ -60,7 +59,7 @@ img.floatRight{
     shape-outside: ellipse(50% 50% at 50% 50%);
 }
 
-img.floatCenter{
+img.floatCenter {
     max-width: 95%;
     max-height: 80vh;
     margin-left: auto;

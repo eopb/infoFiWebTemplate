@@ -2,14 +2,11 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 @import url('style.css');
-
-
 body {
     background-color: var(--background);
 }
 
 h1 {
-    
     text-align: center;
     color: var(--headingTextColour);
 }

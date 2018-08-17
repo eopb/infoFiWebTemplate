@@ -1,6 +1,5 @@
 @import url('button.css');
 @import url('variables.css');
-
 @font-face {
     font-family: Roboto;
     src: url("../fonts/Roboto/Roboto-light.ttf");
@@ -9,7 +8,6 @@
 h1 {
 	margin: 20px;
 }
-
 
 body {
     margin: 0;
