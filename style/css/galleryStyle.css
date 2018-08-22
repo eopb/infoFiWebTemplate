@@ -6,6 +6,9 @@
 
 img {
     width: 100%;
+    min-height: 200px;
+    max-height: 50vh;
+    object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
     transition-duration: 0.4s;
 }
