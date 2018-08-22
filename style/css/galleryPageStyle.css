@@ -135,3 +135,14 @@ a.galleryArrow2 img {
         grid-template-rows: auto min-content 10px;
     }
 }
+
+.button {
+    transition-duration: unset !important;
+}
+
+.button:hover,
+.button:active,
+.button:link,
+.button:visited {
+    transition-duration: 0.4s !important;
+}
