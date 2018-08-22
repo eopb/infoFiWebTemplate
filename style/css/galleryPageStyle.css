@@ -141,8 +141,6 @@ a.galleryArrow2 img {
 }
 
 .button:hover,
-.button:active,
-.button:link,
-.button:visited {
+.button:active {
     transition-duration: 0.4s !important;
 }
