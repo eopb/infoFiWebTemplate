@@ -2,7 +2,7 @@
 @import url('variables.css');
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto/Roboto-light.ttf");
+    src: url("../../style/fonts/Roboto/Roboto-Light.ttf");
 }
 
 h1 {
