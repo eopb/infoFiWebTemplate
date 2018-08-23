@@ -10,8 +10,8 @@ h1 {
 
 div.buttonsArea {
     background-image: url("../../../private/images/background.jpg");
-    background-repeat: repeat;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: bottom left;
 }
 
