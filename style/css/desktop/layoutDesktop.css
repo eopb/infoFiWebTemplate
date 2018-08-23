@@ -13,12 +13,12 @@ div.headerText {
     grid-gap: 0px;
     grid-auto-flow: row;
     grid-template-rows: auto min-content auto;
-    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.9) -0px 0px 30px;
 }
 
 div.headerText h1 {
     grid-row: 2;
-}  
+}
 
 div.buttonsArea {
     z-index: 1;
@@ -41,7 +41,6 @@ div.buttonsArea div.menuButtons {
     grid-column: 1 / 4;
 }
 
-
 div.bottom {
     grid-row: 4;
     grid-column: 1 / 4;
@@ -55,8 +54,6 @@ div.right {
     grid-row: 2;
     grid-column: 3;
 }
-
-
 
 div.menuButtons7 a {
     font-size: 70px;

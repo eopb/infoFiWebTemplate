@@ -1,12 +1,11 @@
 @import url('style.css');
-
 .fullBodyLayout {
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
 }
 
-.line{
+.line {
     margin: 0 0 0 35px;
     padding: 0 0 0 0;
     width: 400px;
@@ -29,7 +28,7 @@ body {
 
 h1 {
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.9) -0px 0px 10px;
     color: #fff;
     font-size: 50px;
     margin: 0;
@@ -44,7 +43,7 @@ h2 {
 
 .buttonsArea {
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) -0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.9) -0px 0px 10px;
     margin: 0px 0px 0px 0px;
     padding: 5px 5px 10px 5px;
     background-color: var(--background);
@@ -54,7 +53,7 @@ h2 {
     font-size: 50px;
 }
 
-img.floatRight{
+img.floatRight {
     width: 40%;
     float: left;
     clip-path: ellipse(50% 50% at 50% 50%);
@@ -62,11 +61,12 @@ img.floatRight{
     shape-outside: ellipse(50% 50% at 50% 50%);
 }
 
-img.floatCenter{
+img.floatCenter {
     max-width: 95%;
     max-height: 80vh;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 img {
