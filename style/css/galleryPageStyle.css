@@ -87,6 +87,7 @@ a.galleryArrow2 img {
     max-height: 30vh;
     margin-top: auto;
     transition: 0.4s;
+    transform: perspective(100px) rotateY(0deg) translateZ(0px);
 }
 
 .galleryArrow1:hover img {
@@ -95,6 +96,16 @@ a.galleryArrow2 img {
 
 .galleryArrow2:hover img {
     margin-right: 0px;
+}
+
+.galleryArrow1 img:hover {
+    transform-origin: right center;
+    transform: perspective(1000px) rotateY(-30deg) translateZ(0px);
+}
+
+.galleryArrow2 img:hover {
+    transform-origin: left center;
+    transform: perspective(1000px) rotateY(30deg) translateZ(0px);
 }
 
 .galleryArrow1:hover img,
@@ -123,4 +134,13 @@ a.galleryArrow2 img {
     .galleryArrow2 {
         grid-template-rows: auto min-content 10px;
     }
+}
+
+.button {
+    transition-duration: unset !important;
+}
+
+.button:hover,
+.button:active {
+    transition-duration: 0.4s !important;
 }
