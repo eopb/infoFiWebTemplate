@@ -1,8 +1,20 @@
-@import url('variables.css');
+/* var */
+
+:root {
+    --background: #4fbdff;
+    --headingTextColour: #fff;
+    --buttonColour: #616161;
+    --buttonTextColour: var(--headingTextColour);
+    --textBackground: #fff;
+}
+
 @font-face {
     font-family: Roboto;
     src: url("../../style/fonts/Roboto/Roboto-Light.ttf");
 }
+
+
+/* main */
 
 h1 {
     text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
