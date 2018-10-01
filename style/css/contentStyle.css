@@ -1,11 +1,6 @@
-@import url('style.css');
 @import url('galleryContentStyle.css');
-.fullBodyLayout {
-    grid-template-rows: min-content min-content min-content min-content auto min-content;
-}
-
-.fullBodyLayout3 {
-    grid-template-rows: min-content auto min-content!important;
+body {
+    grid-template-rows: min-content auto min-content;
 }
 
 p {
