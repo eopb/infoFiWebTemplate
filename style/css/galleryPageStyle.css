@@ -1,4 +1,3 @@
-@import url('style.css');
 @import url('galleryContentStyle.css');
 body {
     grid-template-rows: auto min-content;
