@@ -1,5 +1,5 @@
 @import url('style.css');
-.fullBodyLayout {
+body {
     min-height: 100vh;
     display: grid;
     grid-auto-flow: row;
