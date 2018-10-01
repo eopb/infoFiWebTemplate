@@ -1,6 +1,6 @@
 @import url('style.css');
 @import url('galleryContentStyle.css');
-.fullBodyLayout {
+body {
     grid-template-rows: auto min-content;
     grid-template-columns: auto auto;
     height: 100vh;
