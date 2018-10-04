@@ -31,61 +31,72 @@ div.menuButtons a {
     margin: 5px;
 }
 
-@media (orientation:portrait) {
-    body {
-        grid-auto-flow: row;
-        grid-template-rows: min-content auto;
-    }
-    header {
-        grid-row: 1;
-    }
-    body div.buttonsArea {
-        grid-row: 2;
-        display: grid;
-        grid-auto-flow: row;
-        grid-template-rows: auto min-content;
-    }
-    div.menuButtons {
-        grid-row: 1;
-    }
-    div.bottom {
-        grid-row: 2;
-        display: grid;
-        position: relative;
-        grid-auto-flow: column;
-        grid-template-columns: 33% auto 33%;
-    }
-    div.bottom div.middle {
-        grid-column: 2;
-        margin: auto;
-    }
-    div.bottom div.right {
-        grid-column: 3;
-        margin: 0;
-        margin: auto 0 0 0;
-        float: left;
-        padding: 0;
-    }
-    h1 {
-        font-size: 75px;
-        transition-duration: 0.4s;
-    }
-    .button {
-        font-size: 75px;
-    }
-    .bottom {
-        min-height: 100%;
-        width: 100%;
-    }
-    div.bottom div.middle {
-        filter: drop-shadow( -5px 2px 5px rgba(0, 0, 0, 0.4));
-    }
+body {
+    grid-auto-flow: row;
+    grid-template-rows: min-content auto;
 }
+
+header {
+    grid-row: 1;
+}
+
+body div.buttonsArea {
+    grid-row: 2;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto min-content;
+}
+
+div.menuButtons {
+    grid-row: 1;
+}
+
+div.bottom {
+    grid-row: 2;
+    display: grid;
+    position: relative;
+    grid-auto-flow: column;
+    grid-template-columns: 33% auto 33%;
+}
+
+div.bottom div.middle {
+    grid-column: 2;
+    margin: auto;
+}
+
+div.bottom div.right {
+    grid-column: 3;
+    margin: 0;
+    margin: auto 0 0 0;
+    float: left;
+    padding: 0;
+}
+
+h1 {
+    font-size: 75px;
+    transition-duration: 0.4s;
+}
+
+.button {
+    font-size: 75px;
+}
+
+.bottom {
+    min-height: 100%;
+    width: 100%;
+}
+
+div.bottom div.middle {
+    filter: drop-shadow( -5px 2px 5px rgba(0, 0, 0, 0.4));
+}
+
+@media (orientation:portrait) {}
 
 @media (orientation:landscape) {
     body {
         grid-auto-flow: column;
         grid-template-columns: 50% 50%;
+        grid-template-rows: unset;
     }
     div.bottom div.middle img {
         display: none;
@@ -95,6 +106,7 @@ div.menuButtons a {
         display: grid;
         grid-gap: 0px;
         grid-auto-flow: row;
+        grid-row: unset;
         grid-template-rows: auto min-content auto;
         box-shadow: rgba(0, 0, 0, 0.9) -0px 0px 30px;
     }
@@ -146,11 +158,5 @@ div.menuButtons a {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom left;
-    }
-    @media (max-width: 1100px) {
-        .button {
-            font-size: 40px;
-            transition-duration: 0.4s;
-        }
     }
 }
