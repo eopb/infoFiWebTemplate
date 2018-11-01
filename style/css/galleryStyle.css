@@ -44,7 +44,7 @@ div.mainContentGallery {
 }
 
 div.galleryCell {
-    background-color: var(--buttonColour);
+    background-color: rgb(219, 219, 219);
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
     transition-duration: 0.4s;
     border-bottom: solid 6px;
