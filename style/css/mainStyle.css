@@ -73,6 +73,11 @@ div.menuButtons a {
     .button {
         font-size: 75px;
     }
+    @media (max-width: 420px) {
+        .button {
+            font-size: 50px;
+        }
+    }
     .bottom {
         min-height: 100%;
         width: 100%;
