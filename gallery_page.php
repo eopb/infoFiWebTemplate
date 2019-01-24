@@ -1,3 +1,6 @@
+<?php
+function output_gallery_page($photo, $link_before, $link_after) {
+    ?>
 <!DOCTYPE html>
 <html>
 
@@ -13,14 +16,13 @@
 </head>
 
 <body>
-    <a class="galleryArrow1" href="roofCentre.html">
+
+
+    <a class="galleryArrow1" href="../<?php echo $link_before;?>">
         <img src="../../private/images/svg/svgo/angle-left-solid.svg">
     </a>
-    <img srcset="../private/images/photos/roof/door 4535w,
-            ../../private/images/photos/roof/door75.jpg 3401w,
-            ../../private/images/photos/roof/door50.jpg 2268w,
-            ../../private/images/photos/roof/door25.jpg 3402w" src="../../private/images/photos/roof/door.jpg" alt="" title="" class="mainGalleryImg">
-    <a class="galleryArrow2" href="roofDoorReplica.html">
+    <img src="../../private/images/photos/<?php echo $photo;?>" alt="" title="" class="mainGalleryImg">
+    <a class="galleryArrow2" href="gallery_page?<?php echo $link_after;?>">
         <img src="../../private/images/svg/svgo/angle-right-solid.svg">
     </a>
     <div class="buttonsArea">
@@ -31,3 +33,17 @@
 </body>
 
 </html>
+<?php
+}
+?>
+
+<?php
+    // http://localhost/gallery_page.php?photo=basement%2Fbasement25.jpg&photo_before=roof%2FroofStepsDown.html&photo_after=basement%2FbasementHatchway.html
+    
+
+    $photo = $_GET['photo'];
+    $photo_before = $_GET['photo_before'];
+    $photo_after = $_GET['photo_after'];
+    
+    output_gallery_page($photo , $photo_before, $photo_after);
+?>
