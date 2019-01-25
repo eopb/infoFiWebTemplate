@@ -1,7 +1,7 @@
 <?php
 include 'list_of_gallery_pages.php';
 function output_gallery_page($photo_index, $index_before, $index_after) {
-    ?>
+?>
 <!DOCTYPE html>
 <html>
 
@@ -40,20 +40,14 @@ function output_gallery_page($photo_index, $index_before, $index_after) {
 ?>
 
 <?php
-    
-    
+$photo_index = $_GET['photo_index'];
+$number_of_pages = count(list_of_pages());
 
-    $photo_index = $_GET['photo_index'];
-    $number_of_pages = count(list_of_pages());
-
-            
-    if ($photo_index == 0) {
-        output_gallery_page($photo_index, $number_of_pages - 1, 1);
-    } elseif ($photo_index == ($number_of_pages - 1)) {
-        output_gallery_page($photo_index, $photo_index - 1, 0);
-    } else {
-        output_gallery_page($photo_index, $photo_index - 1, $photo_index + 1);
-    }
-            
-    
+if ($photo_index == 0) {
+    output_gallery_page($photo_index, $number_of_pages - 1, 1);
+} elseif ($photo_index == ($number_of_pages - 1)) {
+    output_gallery_page($photo_index, $photo_index - 1, 0);
+} else {
+    output_gallery_page($photo_index, $photo_index - 1, $photo_index + 1);
+}
 ?>
