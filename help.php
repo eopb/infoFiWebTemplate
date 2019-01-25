@@ -1,7 +1,7 @@
 <?php 
 include 'page_template.php';
 output_gallery_page("Help", 
-?>
+<<<EOT
 <p>
     This is a virtual tour of the Wish Tower to aid visitors who want to learn more about the history of the
     Tower. You can click on each menu to navigate the website and check out each page, then go back to the menus
@@ -24,6 +24,6 @@ output_gallery_page("Help",
     can only access the Info-Fi
     guide.
 </p>
-<?php
+EOT
 , "index.html");
 ?>

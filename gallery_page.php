@@ -1,7 +1,5 @@
 <?php
 include 'list_of_gallery_pages.php';
-
-
 function output_gallery_page($photo_index, $index_before, $index_after) {
     ?>
 <!DOCTYPE html>
