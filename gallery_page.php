@@ -1,5 +1,8 @@
 <?php
-function output_gallery_page($photo, $link_before, $link_after) {
+include 'list_of_gallery_pages.php';
+
+
+function output_gallery_page($photo_index, $index_before, $index_after) {
     ?>
 <!DOCTYPE html>
 <html>
@@ -18,16 +21,17 @@ function output_gallery_page($photo, $link_before, $link_after) {
 <body>
 
 
-    <a class="galleryArrow1" href="../<?php echo $link_before;?>">
+    <a class="galleryArrow1" href="gallery_page.php?photo_index=<?php echo $index_before;?>">
         <img src="../../private/images/svg/svgo/angle-left-solid.svg">
     </a>
-    <img src="../../private/images/photos/<?php echo $photo;?>" alt="" title="" class="mainGalleryImg">
-    <a class="galleryArrow2" href="gallery_page?<?php echo $link_after;?>">
+    <img src="../../private/images/photos/<?php echo list_of_pages()[$photo_index][0];?>" alt="" title=""
+        class="mainGalleryImg">
+    <a class="galleryArrow2" href="gallery_page.php?photo_index=<?php echo $index_after;?>">
         <img src="../../private/images/svg/svgo/angle-right-solid.svg">
     </a>
     <div class="buttonsArea">
         <div class="menuButtons">
-            <a href="../../gallery.html" class="button">Back</a>
+            <a href="../../gallery.php" class="button">Back</a>
         </div>
     </div>
 </body>
@@ -38,12 +42,20 @@ function output_gallery_page($photo, $link_before, $link_after) {
 ?>
 
 <?php
-    // http://localhost/gallery_page.php?photo=basement%2Fbasement25.jpg&photo_before=roof%2FroofStepsDown.html&photo_after=basement%2FbasementHatchway.html
+    
     
 
-    $photo = $_GET['photo'];
-    $photo_before = $_GET['photo_before'];
-    $photo_after = $_GET['photo_after'];
+    $photo_index = $_GET['photo_index'];
+    $number_of_pages = count(list_of_pages());
+
+            
+    if ($photo_index == 0) {
+        output_gallery_page($photo_index, $number_of_pages - 1, 1);
+    } elseif ($photo_index == ($number_of_pages - 1)) {
+        output_gallery_page($photo_index, $photo_index - 1, 0);
+    } else {
+        output_gallery_page($photo_index, $photo_index - 1, $photo_index + 1);
+    }
+            
     
-    output_gallery_page($photo , $photo_before, $photo_after);
 ?>

@@ -19,54 +19,25 @@
 
     <section>
         <?php
-        function gallery_card($photo, $photo_before, $photo_after, $caption) {
+        include 'list_of_gallery_pages.php';
+        function gallery_card($photo_index, $caption) {
             ?>
         <figure>
-            <a
-                href="gallery_page.php?photo=<?php echo $photo;?>&photo_before=<?php echo $photo_before;?>&photo_after=<?php echo $photo_after;?>">
-                <img src="private/images/photos/<?php echo $photo;?>" alt="<?php echo $caption;?>"
-                    title="<?php echo $caption;?>">
+            <a href="gallery_page.php?photo_index=<?php echo $photo_index;?>">
+                <img src="private/images/photos/<?php echo list_of_pages()[$photo_index][0];?>"
+                    alt="<?php echo $caption;?>" title="<?php echo $caption;?>">
             </a>
             <p><?php echo $caption;?></p>
         </figure>
         <?php
         }
         ?>
-        <?php 
-            $pages = [
-                ["outside/cwmt15.jpg", "Eastbourne Civilian War Memorial Trust"],
-                ["outside/cwmtplaque15.jpg", "Eastbourne Civilian War Memorial Trust - Plaque"],
-                ["outside/cwmtsign15.jpg", "Eastbourne Civilian War Memorial Trust - Sign"],
-                ["outside/doorway15.jpg", "Doorway leading into the Tower"],
-                ["outside/entrance15.jpg", "Entrance to the Tower"],
-                ["outside/steps15.jpg", "Steps leading up to the Tower"],
-                ["outside/stepslow15.jpg", "Steps leading up to the Tower"],
-                ["outside/stepstop15.jpg", "Top of the steps and Tower"],
-                ["middle/middle15.jpg", "Steps leading up to roof"],
-                ["roof/centreRoof15.jpg", "Centre of the roof"],
-                ["roof/door15.jpg", "Roof door"],
-                ["roof/replicaDoor15.jpg", "Replica roof door"],
-                ["roof/roof115.jpg", "Gun rail"],
-                ["roof/roof215.jpg", "Gun rail"],
-                ["roof/stepsDown15.jpg", "Steps down to the middle floor"],
-                ["basement/basement15.jpg", "Basement area"],
-                ["basement/hatchway15.jpg", "Hatchway to under-basement storage"],
-                ["basement/magazineCopper15.jpg", "Copper frame around magazine room door"],
-                ["basement/magazineDoor15.jpg", "Magazine Room Door"],
-                ["basement/magazineRoom15.jpg", "Magazine Room"],
-                ["basement/vents15.jpg", "Magazine Room - Vents"],
-                ["basement/puppetDoor15.jpg", "Basement - Puppet Door"],
-            ];
+        <?php
+            $pages = list_of_pages();
             $number_of_pages = count($pages);
 
             for($x = 0; $x < $number_of_pages; $x++) {
-                if ($x == 0) {
-                    gallery_card($pages[$x][0], $pages[$number_of_pages - 1][0], $pages[1][0], $pages[$x][1]);
-                } elseif ($x == ($number_of_pages - 1)) {
-                    gallery_card($pages[$x][0], $pages[$number_of_pages - 2][0], $pages[0][0], $pages[$x][1]);
-                } else {
-                    gallery_card($pages[$x][0], $pages[$x - 1][0], $pages[$x + 1][0], $pages[$x][1]);
-                }
+                gallery_card($x, $pages[$x][1]);
             }
         ?>
 
