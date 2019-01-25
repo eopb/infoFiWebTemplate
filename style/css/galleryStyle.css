@@ -1,27 +1,16 @@
-@import url('style.css');
 @import url('galleryContentStyle.css');
-.fullBodyLayout {
+body {
     grid-template-rows: min-content max-content auto min-content;
 }
 
 img {
     width: 100%;
-    max-height: 30vh;
+    max-height: 25vh;
     min-height: 200px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
     transition-duration: 0.4s;
 }
-
-
-/* @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-    img {
-        width: 100% !important;
-        height: 200px !important;
-        max-height: unset !important;
-        min-height: unset !important;
-    }
-} */
 
 img:hover {
     box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px;
@@ -29,7 +18,7 @@ img:hover {
     transform: scale(1.05, 1.05)
 }
 
-div.mainContentGallery {
+section {
     display: grid;
     margin: 10px;
     grid-gap: 8px;
@@ -37,25 +26,25 @@ div.mainContentGallery {
 }
 
 @media only screen and (max-width: 600px) {
-    div.mainContentGallery {
+    section {
         grid-template-columns: repeat(auto-fit, 1fr);
     }
 }
 
 @media only screen and (orientation:landscape) and (max-width: 1000px) {
-    div.mainContentGallery {
+    section {
         grid-template-columns: auto auto;
     }
 }
 
 @media only screen and (min-width: 1000px) {
-    div.mainContentGallery {
+    section {
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
 
-div.galleryCell {
-    background-color: var(--buttonColour);
+figure {
+    background-color: rgb(219, 219, 219);
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
     transition-duration: 0.4s;
     border-bottom: solid 6px;
@@ -63,16 +52,16 @@ div.galleryCell {
     border-radius: 10px;
 }
 
-div.galleryCell:hover {
+figure:hover {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
 }
 
-div.galleryCell p {
+figure p {
     margin: 0 10px 5px 10px;
     text-align: center;
     overflow: hidden;
 }
 
-div.galleryCell img {
+figure img {
     border-radius: 5px;
 }
