@@ -37,7 +37,7 @@
             $number_of_pages = count($pages);
 
             for($x = 0; $x < $number_of_pages; $x++) {
-                gallery_card($x, $pages[$x][1]);
+                gallery_card($x, $pages[$x][2]);
             }
         ?>
 

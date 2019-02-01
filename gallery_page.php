@@ -22,7 +22,7 @@ function output_gallery_page($photo_index, $index_before, $index_after) {
     <a class="galleryArrow1" href="gallery_page.php?photo_index=<?php echo $index_before;?>">
         <img src="../../private/images/svg/svgo/angle-left-solid.svg">
     </a>
-    <img src="../../private/images/photos/<?php echo list_of_pages()[$photo_index][0];?>" alt="" title=""
+    <img src="../../private/images/photos/<?php echo list_of_pages()[$photo_index][1];?>" alt="" title=""
         class="mainGalleryImg">
     <a class="galleryArrow2" href="gallery_page.php?photo_index=<?php echo $index_after;?>">
         <img src="../../private/images/svg/svgo/angle-right-solid.svg">
