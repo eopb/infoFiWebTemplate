@@ -3,6 +3,31 @@ body {
     grid-template-rows: min-content auto min-content;
 }
 
+nav {
+    background: #9fd3f3;
+}
+
+nav a {
+    float: left;
+    display: block;
+    margin: 7px;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+nav a:active,
+nav a:hover {
+    box-shadow: inset 0px 0px 15px -2px rgba(0, 0, 0, 0.75);
+}
+
+nav a:last-child {
+    float: right;
+}
+
 p {
     padding: 10px;
     font-size: 20px;
@@ -17,6 +42,10 @@ div.mainContentText img {
     box-shadow: rgba(0, 0, 0, 0.6) -10px 10px 30px;
     /* broken by cip-path. Possible fix? https://stackoverflow.com/questions/40552950/is-it-possible-to-generate-a-box-shadow-that-follows-the-shape-of-a-clip-path-po */
     display: block;
+}
+
+a.button {
+    margin-bottom: 45px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {

@@ -142,5 +142,7 @@ output_gallery_page("Wish Tower - General History",
         Projects), wishtower.org.uk, Historic England List Entry, Wish Tower Friends
     </i></p>
 EOT
-, "choice.html");
+, "choice.html",
+[]
+);
 ?>

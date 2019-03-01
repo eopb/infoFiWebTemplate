@@ -41,5 +41,7 @@ output_gallery_page_with_path(
 EOT
 ,
 "../roomChoice.html",
-"../");
+"../",
+[["Upstairs to Roof", "top.php"], ["Downstairs to Basement", "bottom.php"], ["Outside", "outside.php"]]
+);
 ?>

@@ -1,5 +1,5 @@
 <?php
-function output_gallery_page_with_path($header, $body, $return_to, $path_correct) {
+function output_gallery_page_with_path($header, $body, $return_to, $path_correct, $links) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,6 +19,19 @@ function output_gallery_page_with_path($header, $body, $return_to, $path_correct
     <header>
         <h1><?php echo $header;?></h1>
     </header>
+    <nav>
+        <a href="<?php echo $path_correct;?>index.html">Home</a>
+        <?php
+            $number_of_pages = count($links);
+            if ($number_of_pages !== 0) {
+                for($x = 0; $x < $number_of_pages; $x++) {
+                    ?><a href="<?php echo $links[$x][1];?>"><?php echo $links[$x][0];?></a><?php
+                }
+            }
+            
+        ?>
+        <a href="<?php echo $return_to;?>">Back</a>
+    </nav>
     <div class="mainContentText">
         <?php echo $body;?>
     </div>
@@ -32,7 +45,7 @@ function output_gallery_page_with_path($header, $body, $return_to, $path_correct
 </html>
 <?php
 }
-function output_gallery_page($header, $body, $return_to) {
-    output_gallery_page_with_path($header, $body, $return_to, "");
+function output_gallery_page($header, $body, $return_to, $links) {
+    output_gallery_page_with_path($header, $body, $return_to, "", $links);
 }
 ?>

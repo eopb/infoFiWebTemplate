@@ -75,5 +75,7 @@ output_gallery_page_with_path(
 EOT
 ,
 "../roomChoice.html",
-"../");
+"../",
+[["Enter Wish Tower", "middle.php"]]
+);
 ?>

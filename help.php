@@ -25,5 +25,7 @@ output_gallery_page("Help",
     guide.
 </p>
 EOT
-, "index.html");
+, "index.html",
+[]
+);
 ?>

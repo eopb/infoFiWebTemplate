@@ -70,5 +70,7 @@ output_gallery_page_with_path(
 EOT
 ,
 "../roomChoice.html",
-"../");
+"../",
+[["Upstairs to middle floor", "middle.php"]]
+);
 ?>

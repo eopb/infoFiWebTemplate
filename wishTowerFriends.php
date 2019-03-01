@@ -30,5 +30,7 @@ output_gallery_page("Wish Tower Friends",
     </i>
 </p>
 EOT
-, "choice.html");
+, "choice.html",
+[]
+);
 ?>
