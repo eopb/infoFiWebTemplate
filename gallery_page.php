@@ -9,9 +9,9 @@ function output_gallery_page($photo_index, $index_before, $index_after) {
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
-    <link rel="stylesheet" href="../../style/css/galleryPageStyle.css">
-    <link rel="stylesheet" href="../../style/css/galleryContentStyle.css">
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="../../style/css/galleryContentStyle.css">
+    <link rel="stylesheet" href="../../style/css/galleryPageStyle.css">
 
     <title>Wish Tower Guide</title>
     <link rel="icon" href="../../private/images/svg/svgo/lowPolyWishTower.svg">
