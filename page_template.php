@@ -9,6 +9,8 @@ function output_gallery_page_with_path($header, $body, $return_to, $path_correct
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
     <link rel="stylesheet" href="<?php echo $path_correct;?>style/css/contentStyle.css">
+    <link rel="stylesheet" href="<?php echo $path_correct;?>style/css/galleryContentStyle.css">
+    <link rel="stylesheet" href="<?php echo $path_correct;?>style/css/style.css">
 
     <title>Wish Tower Guide</title>
     <link rel="icon" href="<?php echo $path_correct;?>private/images/svg/svgo/lowPolyWishTower.svg">

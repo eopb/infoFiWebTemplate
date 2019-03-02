@@ -10,6 +10,8 @@ function output_gallery_page($photo_index, $index_before, $index_after) {
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
     <link rel="stylesheet" href="../../style/css/galleryPageStyle.css">
+    <link rel="stylesheet" href="../../style/css/galleryContentStyle.css">
+    <link rel="stylesheet" href="style/css/style.css">
 
     <title>Wish Tower Guide</title>
     <link rel="icon" href="../../private/images/svg/svgo/lowPolyWishTower.svg">
