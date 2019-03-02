@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
+    <link rel="stylesheet" href="style/css/style.css">
     <link rel="stylesheet" href="style/css/galleryStyle.css">
     <link rel="stylesheet" href="style/css/galleryContentStyle.css">
-    <link rel="stylesheet" href="style/css/style.css">
 
     <title>Wish Tower Guide</title>
     <link rel="icon" href="private/images/svg/svgo/lowPolyWishTower.svg">
