@@ -18,7 +18,7 @@ output_gallery_page("Help",
 <p>
     This device was built by TechResort in collaboration with the Wish Tower Friends, and relies on using a
     small device called a Raspberry Pi to both act as a web server and an access point so that you can view the
-    content from an internet-enabled devices
+    content from internet-enabled devices
     such as smartphones and tablets. It is solar powered as there is no power infrastructure in the Wish Tower
     site. This means that it is a WiFi network without external internet access but is completely secure, and
     can only access the Info-Fi
