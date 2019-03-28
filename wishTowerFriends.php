@@ -5,9 +5,9 @@ output_gallery_page("Wish Tower Friends",
 <p>
     The Wish Tower Friends are a group of volunteers, from Eastbourne and further afield, who want to encourage more
     people to visit the Wish Tower and educate them about its historical significance. They took over the running of the
-    tower on a lease from
+    Tower on a lease from
     Eastbourne Borough Council, with the aims of restoring public access, raising funds to repair the tower, educating
-    visitors and to act as a leading community voice in the planning of the new restuarant site which is currently being
+    visitors and to act as a leading community voice in the planning of the new restaurant site, which is currently being
     built.
 </p>
 <img class="floatCenter"
