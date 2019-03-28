@@ -10,7 +10,7 @@ output_gallery_page_with_path(
     the full height of the Wish Tower.
 </p>
 <p>
-    Another example of a change following work to the site in 1959/60 includes the revealing of the seaward facing wall,
+    Another example of a change following work to the site in 1959/60 includes the revealing of the seaward-facing wall,
     with its alternating brick and greensand courses - greensand is a weaker but locally sourced material. The Moat Wall
     itself, although
     not fully intact following work in preparation to demolish the Tower, is in itself a rarity as only 6 other
@@ -34,7 +34,7 @@ output_gallery_page_with_path(
     title="Entrance to the Wish Tower">
 <p>
     Despite the damaging work during the mid-20th century, which includes the rendered cement on the outside of the
-    tower now being in poor condition, more recent work undertaken has greatly improved the site. A Peace Garden has
+    Tower now being in poor condition, more recent work undertaken has greatly improved the site. A Peace Garden has
     recently been built around
     the Wish Tower, thanks to the work of the Eastbourne Civilian War Memorial Trust, to remember those killed and
     injured in the bombing raids on the town during the Second World War. A nine ton piece of glacial granite has been
