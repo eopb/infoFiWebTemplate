@@ -15,7 +15,7 @@ output_gallery_page_with_path(
     for storing ammunition and supplies. The magazine room, used to store gunpowder, features "pizza oven"
     shaped holes, which are vents up to the
     top. This would have provided the ventilation and airflow needed to help keep the gunpowder dry. The
-    original copper covered door remains in place to this day, a safety feature to prevent sparking near
+    original copper-covered door remains in place to this day, a safety feature to prevent sparking near
     gunpowder.
 </p>
 
@@ -35,10 +35,7 @@ output_gallery_page_with_path(
     title="Magazine Room - Copper door">
 
 <p>
-    Underneath the brick flooring, accessed via two hatchways with wooden covers is a smaller cistern area
-    (which is up to 1.2m deep) which would have been used as both a water tank (supplemented by a rainwater
-    collection tank) and storage for food, although
-    this does not continue under the magazine area.
+    Underneath the brick flooring, accessed via two hatchways with wooden covers is a smaller cistern area (which is up to 1.2m deep). This would have been used as both a water-tank (supplemented by a rainwater collection tank) and storage for food, although this does not continue under the magazine area.
 </p>
 
 <img class="floatCenter"
@@ -49,8 +46,8 @@ output_gallery_page_with_path(
     src="../private/images/photos/basement/hatchway.jpg" alt="Puppet Door" title="Puppet Door">
 
 <p>
-    Evidence of the Tower\'s use as a puppet museum is seen with the display cabinets on the ground floor and the
-    bright paint on the spiral stairs leading down. There was also a door inserted, out to ground level but this
+    Evidence of the Tower's use as a puppet museum is seen with the display cabinets on the ground floor and the
+    bright paint on the spiral stairs leading down. There was also a door inserted, out to ground level, but this
     was blocked off.
 </p>
 
