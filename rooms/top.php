@@ -9,7 +9,7 @@ output_gallery_page_with_path(
 </p>
 <p>
     At the top of the internal stone staircase - built into the thickest part of the outer wall - would have
-    been a protective door with a small hole to allow the passing of canonballs whilst also protecting those
+    been a protective door with a small hole to allow the passing of cannonballs whilst also protecting those
     passing the cannonballs from potential blasts.
     The hatchway in place today is a more recent addition to both make public access easier and to make the exit
     more waterproof. There is, however, a small green replica door in its place.
@@ -30,16 +30,16 @@ output_gallery_page_with_path(
     recesses set into the wall.
 </p>
 <p>
-    There is also a circular stone platform and a raised stone cill, both of which have metal rails which would
+    There is also a circular stone platform and a raised stone sill, both of which have metal rails which would
     have supported the wheels of a gun carriage. This carriage would have held a 24lb gun and in theory should
     have had a range of 1.5km and been able
     to aim through 360 degrees thanks to the rails.
 </p>
 <p>
     One of the problems they had with one of the of the original towers in Corsica was that it only had
-    180-degree traversal so they were able to able to fire out at enemy ships but the way they were able to
+    180-degree traversal, so they were able to fire out at enemy ships; but the way they were able to
     capture the fort was by coming inland and attacking
-    it at the rear.
+    at the rear.
 </p>
 
 <img srcset="../private/images/photos/roof/roof1.jpg 4608w,
