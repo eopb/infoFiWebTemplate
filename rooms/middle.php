@@ -10,7 +10,7 @@ output_gallery_page_with_path(
     is above the door.
 </p>
 <p>
-    It was originally divided into 3 seperate areas by wooden partitions. This would have provided accommodation for 24
+    It was originally divided into 3 separate areas by wooden partitions. This would have provided accommodation for 24
     men and one stationed officer, with two fireplaces heating the rooms. Light was provided by two small windows, to
     the north east and south
     west. In the centre of the tower, a supporting pillar is in place which supports the weight of the roof; this design
