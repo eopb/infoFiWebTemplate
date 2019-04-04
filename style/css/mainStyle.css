@@ -28,6 +28,7 @@ div.bottom img {
 
 div.menuButtons a {
     margin: 5px;
+    overflow-y: auto;
 }
 
 @media (orientation:portrait) {
