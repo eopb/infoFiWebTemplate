@@ -1,4 +1,6 @@
-# infoFiWebtTemplate
+# infoFiWebTemplate
+
+<img align="right" width="135" src="private/images/favicon.ico">
 
 Website for the Infofi project using PHP.
 
