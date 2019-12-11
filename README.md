@@ -10,4 +10,6 @@ http://infofi.wishtower.org.uk/
 
 **This website is also hosted on a Raspberry Pi in the tower and can accessed using a captive portal.**
 
+Please see the [GPIO Code](https://github.com/ethanboxx/infoFiGPIO)
+
 Font awesome icons where used. https://fontawesome.com/license
